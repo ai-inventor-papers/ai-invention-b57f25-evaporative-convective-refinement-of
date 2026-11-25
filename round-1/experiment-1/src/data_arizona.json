@@ -1,0 +1,18 @@
+{
+  "dataset": "arizona_coffee",
+  "description": "Coffee cooling experiment from University of Arizona. Room temperature 24°C.",
+  "t_amb_c": 24,
+  "data": [
+    {"t_min": 0, "T_c": 82.3},
+    {"t_min": 1, "T_c": 79.7},
+    {"t_min": 2, "T_c": 77.4},
+    {"t_min": 3, "T_c": 75.1},
+    {"t_min": 4, "T_c": 73.2},
+    {"t_min": 5, "T_c": 70.8},
+    {"t_min": 6, "T_c": 69.3},
+    {"t_min": 7, "T_c": 67.0},
+    {"t_min": 8, "T_c": 65.4},
+    {"t_min": 9, "T_c": 63.4},
+    {"t_min": 10, "T_c": 62.1}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "dataset": "manitoba_coffee",
+  "description": "Coffee cooling experiment from University of Manitoba. Room temperature 71°F.",
+  "t_amb_f": 71,
+  "data": [
+    {"t_min": 0, "T_f": 186},
+    {"t_min": 1, "T_f": 179},
+    {"t_min": 2, "T_f": 175},
+    {"t_min": 3, "T_f": 171},
+    {"t_min": 8, "T_f": 156},
+    {"t_min": 13, "T_f": 144},
+    {"t_min": 18, "T_f": 135},
+    {"t_min": 23, "T_f": 127},
+    {"t_min": 28, "T_f": 120},
+    {"t_min": 33, "T_f": 116},
+    {"t_min": 38, "T_f": 111},
+    {"t_min": 43, "T_f": 107},
+    {"t_min": 48, "T_f": 104}
+  ]
+}

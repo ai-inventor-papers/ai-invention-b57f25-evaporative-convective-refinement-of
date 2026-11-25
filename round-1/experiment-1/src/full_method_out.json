@@ -1,0 +1,318 @@
+{
+  "metadata": {
+    "method_name": "SCFC_vs_Newton_noise_perturbation",
+    "description": "Comparison with noise perturbations simulating repeated experiments",
+    "parameters": {
+      "volume_l": 0.3,
+      "mass_kg": 300.0,
+      "radius_m": 0.04,
+      "height_m": 0.1,
+      "surface_area_m2": 0.030159289474462017,
+      "cp_water": 4186,
+      "L_v": 2260000,
+      "rho_water": 1000,
+      "n_examples_per_dataset": 12,
+      "noise_std_c": 0.5
+    }
+  },
+  "datasets": [
+    {
+      "dataset": "manitoba_coffee",
+      "examples": [
+        {
+          "input": "Noise perturbation example 0 on manitoba_coffee",
+          "output": "{\"dataset\": \"manitoba_coffee\", \"example_idx\": 0, \"newton\": {\"k\": 0.000497466821733549, \"rmse_c\": 2.0988710292593993, \"mae_c\": 1.846654928554929}, \"scfc\": {\"h0\": 968.1797350408643, \"m_evap_rate\": 0.0002318536242337081, \"rmse_c\": 1.954921153445002, \"mae_c\": 1.7126898367052605}, \"comparison\": {\"rmse_improvement_pct\": 6.858443125263919, \"mae_improvement_pct\": 7.2544734686572285}}",
+          "metadata_dataset": "manitoba_coffee",
+          "metadata_example_idx": 0,
+          "predict_newton_k": "{\"value\": 0.000497466821733549, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "2.0988710292593993",
+          "predict_scfc_h0": "{\"value\": 968.1797350408643, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.0002318536242337081, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "1.954921153445002",
+          "predict_rmse_improvement_pct": "6.858443125263919"
+        },
+        {
+          "input": "Noise perturbation example 1 on manitoba_coffee",
+          "output": "{\"dataset\": \"manitoba_coffee\", \"example_idx\": 1, \"newton\": {\"k\": 0.0004956034168252699, \"rmse_c\": 2.0540970603398034, \"mae_c\": 1.7342627435885638}, \"scfc\": {\"h0\": 987.2154729057817, \"m_evap_rate\": 0.00022997131446421032, \"rmse_c\": 1.9034000992349474, \"mae_c\": 1.605014643213409}, \"comparison\": {\"rmse_improvement_pct\": 7.33640897572419, \"mae_improvement_pct\": 7.4526250911504155}}",
+          "metadata_dataset": "manitoba_coffee",
+          "metadata_example_idx": 1,
+          "predict_newton_k": "{\"value\": 0.0004956034168252699, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "2.0540970603398034",
+          "predict_scfc_h0": "{\"value\": 987.2154729057817, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.00022997131446421032, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "1.9034000992349474",
+          "predict_rmse_improvement_pct": "7.33640897572419"
+        },
+        {
+          "input": "Noise perturbation example 2 on manitoba_coffee",
+          "output": "{\"dataset\": \"manitoba_coffee\", \"example_idx\": 2, \"newton\": {\"k\": 0.0004938462895975995, \"rmse_c\": 2.0265087127732544, \"mae_c\": 1.746198239951958}, \"scfc\": {\"h0\": 997.7501137494136, \"m_evap_rate\": 0.00022853244760906482, \"rmse_c\": 1.8730643159708713, \"mae_c\": 1.609504749625811}, \"comparison\": {\"rmse_improvement_pct\": 7.571859712973854, \"mae_improvement_pct\": 7.828062541736827}}",
+          "metadata_dataset": "manitoba_coffee",
+          "metadata_example_idx": 2,
+          "predict_newton_k": "{\"value\": 0.0004938462895975995, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "2.0265087127732544",
+          "predict_scfc_h0": "{\"value\": 997.7501137494136, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.00022853244760906482, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "1.8730643159708713",
+          "predict_rmse_improvement_pct": "7.571859712973854"
+        },
+        {
+          "input": "Noise perturbation example 3 on manitoba_coffee",
+          "output": "{\"dataset\": \"manitoba_coffee\", \"example_idx\": 3, \"newton\": {\"k\": 0.000500860615343324, \"rmse_c\": 2.438146460494621, \"mae_c\": 2.1248109795813908}, \"scfc\": {\"h0\": 963.5601143386131, \"m_evap_rate\": 0.00023402764868610138, \"rmse_c\": 2.2912132662741755, \"mae_c\": 1.9920082482832866}, \"comparison\": {\"rmse_improvement_pct\": 6.026430183797789, \"mae_improvement_pct\": 6.250096247350324}}",
+          "metadata_dataset": "manitoba_coffee",
+          "metadata_example_idx": 3,
+          "predict_newton_k": "{\"value\": 0.000500860615343324, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "2.438146460494621",
+          "predict_scfc_h0": "{\"value\": 963.5601143386131, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.00023402764868610138, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "2.2912132662741755",
+          "predict_rmse_improvement_pct": "6.026430183797789"
+        },
+        {
+          "input": "Noise perturbation example 4 on manitoba_coffee",
+          "output": "{\"dataset\": \"manitoba_coffee\", \"example_idx\": 4, \"newton\": {\"k\": 0.000486871185643225, \"rmse_c\": 1.948778909054093, \"mae_c\": 1.6892452955798862}, \"scfc\": {\"h0\": 969.5935002501052, \"m_evap_rate\": 0.00022599682981181798, \"rmse_c\": 1.8014205978102344, \"mae_c\": 1.5577646516752353}, \"comparison\": {\"rmse_improvement_pct\": 7.56157153380647, \"mae_improvement_pct\": 7.783395593800729}}",
+          "metadata_dataset": "manitoba_coffee",
+          "metadata_example_idx": 4,
+          "predict_newton_k": "{\"value\": 0.000486871185643225, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "1.948778909054093",
+          "predict_scfc_h0": "{\"value\": 969.5935002501052, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.00022599682981181798, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "1.8014205978102344",
+          "predict_rmse_improvement_pct": "7.56157153380647"
+        },
+        {
+          "input": "Noise perturbation example 5 on manitoba_coffee",
+          "output": "{\"dataset\": \"manitoba_coffee\", \"example_idx\": 5, \"newton\": {\"k\": 0.000501074662260298, \"rmse_c\": 2.174257268700784, \"mae_c\": 1.8839547596929134}, \"scfc\": {\"h0\": 992.8698663323692, \"m_evap_rate\": 0.00023278640646758126, \"rmse_c\": 2.030345026052668, \"mae_c\": 1.7469485132183296}, \"comparison\": {\"rmse_improvement_pct\": 6.618915098952852, \"mae_improvement_pct\": 7.272268390187669}}",
+          "metadata_dataset": "manitoba_coffee",
+          "metadata_example_idx": 5,
+          "predict_newton_k": "{\"value\": 0.000501074662260298, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "2.174257268700784",
+          "predict_scfc_h0": "{\"value\": 992.8698663323692, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.00023278640646758126, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "2.030345026052668",
+          "predict_rmse_improvement_pct": "6.618915098952852"
+        },
+        {
+          "input": "Noise perturbation example 6 on manitoba_coffee",
+          "output": "{\"dataset\": \"manitoba_coffee\", \"example_idx\": 6, \"newton\": {\"k\": 0.0004886259975038882, \"rmse_c\": 1.7206243244108956, \"mae_c\": 1.4501134597644654}, \"scfc\": {\"h0\": 995.2250610708879, \"m_evap_rate\": 0.00022586010142311213, \"rmse_c\": 1.5662500272670328, \"mae_c\": 1.3226027967274698}, \"comparison\": {\"rmse_improvement_pct\": 8.971993186061535, \"mae_improvement_pct\": 8.793150782677822}}",
+          "metadata_dataset": "manitoba_coffee",
+          "metadata_example_idx": 6,
+          "predict_newton_k": "{\"value\": 0.0004886259975038882, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "1.7206243244108956",
+          "predict_scfc_h0": "{\"value\": 995.2250610708879, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.00022586010142311213, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "1.5662500272670328",
+          "predict_rmse_improvement_pct": "8.971993186061535"
+        },
+        {
+          "input": "Noise perturbation example 7 on manitoba_coffee",
+          "output": "{\"dataset\": \"manitoba_coffee\", \"example_idx\": 7, \"newton\": {\"k\": 0.0004863455129866699, \"rmse_c\": 1.8819710122401232, \"mae_c\": 1.6552859029095255}, \"scfc\": {\"h0\": 988.6808387166126, \"m_evap_rate\": 0.0002248959464307734, \"rmse_c\": 1.7325924298382382, \"mae_c\": 1.522059185675019}, \"comparison\": {\"rmse_improvement_pct\": 7.937347675938887, \"mae_improvement_pct\": 8.048562305782436}}",
+          "metadata_dataset": "manitoba_coffee",
+          "metadata_example_idx": 7,
+          "predict_newton_k": "{\"value\": 0.0004863455129866699, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "1.8819710122401232",
+          "predict_scfc_h0": "{\"value\": 988.6808387166126, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.0002248959464307734, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "1.7325924298382382",
+          "predict_rmse_improvement_pct": "7.937347675938887"
+        },
+        {
+          "input": "Noise perturbation example 8 on manitoba_coffee",
+          "output": "{\"dataset\": \"manitoba_coffee\", \"example_idx\": 8, \"newton\": {\"k\": 0.0004958190443771411, \"rmse_c\": 2.087000793497167, \"mae_c\": 1.84198037653818}, \"scfc\": {\"h0\": 994.7080871784351, \"m_evap_rate\": 0.00022957941032199472, \"rmse_c\": 1.9408819096955132, \"mae_c\": 1.7031076847435354}, \"comparison\": {\"rmse_improvement_pct\": 7.001381324671355, \"mae_improvement_pct\": 7.53931440114699}}",
+          "metadata_dataset": "manitoba_coffee",
+          "metadata_example_idx": 8,
+          "predict_newton_k": "{\"value\": 0.0004958190443771411, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "2.087000793497167",
+          "predict_scfc_h0": "{\"value\": 994.7080871784351, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.00022957941032199472, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "1.9408819096955132",
+          "predict_rmse_improvement_pct": "7.001381324671355"
+        },
+        {
+          "input": "Noise perturbation example 9 on manitoba_coffee",
+          "output": "{\"dataset\": \"manitoba_coffee\", \"example_idx\": 9, \"newton\": {\"k\": 0.0005026698340705048, \"rmse_c\": 2.235370604467632, \"mae_c\": 1.9599561719198157}, \"scfc\": {\"h0\": 998.9860004547479, \"m_evap_rate\": 0.00023338385747636868, \"rmse_c\": 2.0877385674924906, \"mae_c\": 1.8282465771121597}, \"comparison\": {\"rmse_improvement_pct\": 6.604365141068003, \"mae_improvement_pct\": 6.720027554424543}}",
+          "metadata_dataset": "manitoba_coffee",
+          "metadata_example_idx": 9,
+          "predict_newton_k": "{\"value\": 0.0005026698340705048, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "2.235370604467632",
+          "predict_scfc_h0": "{\"value\": 998.9860004547479, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.00023338385747636868, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "2.0877385674924906",
+          "predict_rmse_improvement_pct": "6.604365141068003"
+        },
+        {
+          "input": "Noise perturbation example 10 on manitoba_coffee",
+          "output": "{\"dataset\": \"manitoba_coffee\", \"example_idx\": 10, \"newton\": {\"k\": 0.0004934157873531133, \"rmse_c\": 1.961153347551345, \"mae_c\": 1.7582595441623239}, \"scfc\": {\"h0\": 997.3591748638877, \"m_evap_rate\": 0.00022837629264522164, \"rmse_c\": 1.810921861531939, \"mae_c\": 1.6222990538086632}, \"comparison\": {\"rmse_improvement_pct\": 7.6603640509286, \"mae_improvement_pct\": 7.73267466712006}}",
+          "metadata_dataset": "manitoba_coffee",
+          "metadata_example_idx": 10,
+          "predict_newton_k": "{\"value\": 0.0004934157873531133, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "1.961153347551345",
+          "predict_scfc_h0": "{\"value\": 997.3591748638877, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.00022837629264522164, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "1.810921861531939",
+          "predict_rmse_improvement_pct": "7.6603640509286"
+        },
+        {
+          "input": "Noise perturbation example 11 on manitoba_coffee",
+          "output": "{\"dataset\": \"manitoba_coffee\", \"example_idx\": 11, \"newton\": {\"k\": 0.0004985708830789772, \"rmse_c\": 2.085399796598539, \"mae_c\": 1.8605079453981916}, \"scfc\": {\"h0\": 995.0713228914558, \"m_evap_rate\": 0.00023130639294530037, \"rmse_c\": 1.9323600733930841, \"mae_c\": 1.7238712203562765}, \"comparison\": {\"rmse_improvement_pct\": 7.338627511860092, \"mae_improvement_pct\": 7.3440549060741445}}",
+          "metadata_dataset": "manitoba_coffee",
+          "metadata_example_idx": 11,
+          "predict_newton_k": "{\"value\": 0.0004985708830789772, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "2.085399796598539",
+          "predict_scfc_h0": "{\"value\": 995.0713228914558, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.00023130639294530037, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "1.9323600733930841",
+          "predict_rmse_improvement_pct": "7.338627511860092"
+        }
+      ]
+    },
+    {
+      "dataset": "arizona_coffee",
+      "examples": [
+        {
+          "input": "Noise perturbation example 0 on arizona_coffee",
+          "output": "{\"dataset\": \"arizona_coffee\", \"example_idx\": 0, \"newton\": {\"k\": 0.000719420153248241, \"rmse_c\": 0.3799957294207998, \"mae_c\": 0.2765347380857454}, \"scfc\": {\"h0\": 213.29301688934513, \"m_evap_rate\": 0.00038927085413812963, \"rmse_c\": 0.38061815150370926, \"mae_c\": 0.2779279942016434}, \"comparison\": {\"rmse_improvement_pct\": -0.16379712578827707, \"mae_improvement_pct\": -0.5038267978708552}}",
+          "metadata_dataset": "arizona_coffee",
+          "metadata_example_idx": 0,
+          "predict_newton_k": "{\"value\": 0.000719420153248241, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "0.3799957294207998",
+          "predict_scfc_h0": "{\"value\": 213.29301688934513, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.00038927085413812963, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "0.38061815150370926",
+          "predict_rmse_improvement_pct": "-0.16379712578827707"
+        },
+        {
+          "input": "Noise perturbation example 1 on arizona_coffee",
+          "output": "{\"dataset\": \"arizona_coffee\", \"example_idx\": 1, \"newton\": {\"k\": 0.0007140814990243016, \"rmse_c\": 0.3511559938019395, \"mae_c\": 0.2762729720908}, \"scfc\": {\"h0\": 53.91443019705894, \"m_evap_rate\": 0.0003941432467475674, \"rmse_c\": 0.35135448824772214, \"mae_c\": 0.2765324734775712}, \"comparison\": {\"rmse_improvement_pct\": -0.05652600248497601, \"mae_improvement_pct\": -0.09392934271034434}}",
+          "metadata_dataset": "arizona_coffee",
+          "metadata_example_idx": 1,
+          "predict_newton_k": "{\"value\": 0.0007140814990243016, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "0.3511559938019395",
+          "predict_scfc_h0": "{\"value\": 53.91443019705894, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.0003941432467475674, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "0.35135448824772214",
+          "predict_rmse_improvement_pct": "-0.05652600248497601"
+        },
+        {
+          "input": "Noise perturbation example 2 on arizona_coffee",
+          "output": "{\"dataset\": \"arizona_coffee\", \"example_idx\": 2, \"newton\": {\"k\": 0.0007103851300089912, \"rmse_c\": 0.4450533233765271, \"mae_c\": 0.34568059419854275}, \"scfc\": {\"h0\": 49.53022152050253, \"m_evap_rate\": 0.0003923067456607115, \"rmse_c\": 0.44560150856351144, \"mae_c\": 0.3461094026679012}, \"comparison\": {\"rmse_improvement_pct\": -0.12317292292648983, \"mae_improvement_pct\": -0.12404759669909507}}",
+          "metadata_dataset": "arizona_coffee",
+          "metadata_example_idx": 2,
+          "predict_newton_k": "{\"value\": 0.0007103851300089912, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "0.4450533233765271",
+          "predict_scfc_h0": "{\"value\": 49.53022152050253, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.0003923067456607115, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "0.44560150856351144",
+          "predict_rmse_improvement_pct": "-0.12317292292648983"
+        },
+        {
+          "input": "Noise perturbation example 3 on arizona_coffee",
+          "output": "{\"dataset\": \"arizona_coffee\", \"example_idx\": 3, \"newton\": {\"k\": 0.0007334641778391621, \"rmse_c\": 0.4628623117638251, \"mae_c\": 0.38513316069126413}, \"scfc\": {\"h0\": 996.4412502532741, \"m_evap_rate\": 0.0003587206676798068, \"rmse_c\": 0.45263554519576543, \"mae_c\": 0.3780881388476503}, \"comparison\": {\"rmse_improvement_pct\": 2.2094619302851877, \"mae_improvement_pct\": 1.8292431196962964}}",
+          "metadata_dataset": "arizona_coffee",
+          "metadata_example_idx": 3,
+          "predict_newton_k": "{\"value\": 0.0007334641778391621, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "0.4628623117638251",
+          "predict_scfc_h0": "{\"value\": 996.4412502532741, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.0003587206676798068, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "0.45263554519576543",
+          "predict_rmse_improvement_pct": "2.2094619302851877"
+        },
+        {
+          "input": "Noise perturbation example 4 on arizona_coffee",
+          "output": "{\"dataset\": \"arizona_coffee\", \"example_idx\": 4, \"newton\": {\"k\": 0.0006879839086356105, \"rmse_c\": 0.45094130448976416, \"mae_c\": 0.3132977643911168}, \"scfc\": {\"h0\": 28.247211988436455, \"m_evap_rate\": 0.0003809048143191363, \"rmse_c\": 0.45116939797206446, \"mae_c\": 0.3134754029959255}, \"comparison\": {\"rmse_improvement_pct\": -0.050581634467568054, \"mae_improvement_pct\": -0.056699608167959}}",
+          "metadata_dataset": "arizona_coffee",
+          "metadata_example_idx": 4,
+          "predict_newton_k": "{\"value\": 0.0006879839086356105, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "0.45094130448976416",
+          "predict_scfc_h0": "{\"value\": 28.247211988436455, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.0003809048143191363, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "0.45116939797206446",
+          "predict_rmse_improvement_pct": "-0.050581634467568054"
+        },
+        {
+          "input": "Noise perturbation example 5 on arizona_coffee",
+          "output": "{\"dataset\": \"arizona_coffee\", \"example_idx\": 5, \"newton\": {\"k\": 0.0007266698531429697, \"rmse_c\": 0.4541051586648963, \"mae_c\": 0.36954209433520124}, \"scfc\": {\"h0\": 62.74693304359183, \"m_evap_rate\": 0.00040070366531594245, \"rmse_c\": 0.4542236227332749, \"mae_c\": 0.36965598530717225}, \"comparison\": {\"rmse_improvement_pct\": -0.026087364593447637, \"mae_improvement_pct\": -0.03081948544343686}}",
+          "metadata_dataset": "arizona_coffee",
+          "metadata_example_idx": 5,
+          "predict_newton_k": "{\"value\": 0.0007266698531429697, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "0.4541051586648963",
+          "predict_scfc_h0": "{\"value\": 62.74693304359183, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.00040070366531594245, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "0.4542236227332749",
+          "predict_rmse_improvement_pct": "-0.026087364593447637"
+        },
+        {
+          "input": "Noise perturbation example 6 on arizona_coffee",
+          "output": "{\"dataset\": \"arizona_coffee\", \"example_idx\": 6, \"newton\": {\"k\": 0.0006823043651183265, \"rmse_c\": 0.6316631735970919, \"mae_c\": 0.5388910722333684}, \"scfc\": {\"h0\": 10.721649866260336, \"m_evap_rate\": 0.00037860940475494724, \"rmse_c\": 0.6318028289872173, \"mae_c\": 0.5390024406482216}, \"comparison\": {\"rmse_improvement_pct\": -0.022109154999508066, \"mae_improvement_pct\": -0.020666220056606167}}",
+          "metadata_dataset": "arizona_coffee",
+          "metadata_example_idx": 6,
+          "predict_newton_k": "{\"value\": 0.0006823043651183265, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "0.6316631735970919",
+          "predict_scfc_h0": "{\"value\": 10.721649866260336, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.00037860940475494724, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "0.6318028289872173",
+          "predict_rmse_improvement_pct": "-0.022109154999508066"
+        },
+        {
+          "input": "Noise perturbation example 7 on arizona_coffee",
+          "output": "{\"dataset\": \"arizona_coffee\", \"example_idx\": 7, \"newton\": {\"k\": 0.0006766308462610196, \"rmse_c\": 0.5109272672748519, \"mae_c\": 0.390857787697473}, \"scfc\": {\"h0\": 1.1171136560510484, \"m_evap_rate\": 0.0003759262657087448, \"rmse_c\": 0.510936454351018, \"mae_c\": 0.3908566435828879}, \"comparison\": {\"rmse_improvement_pct\": -0.0017981181969482494, \"mae_improvement_pct\": 0.00029271889190492093}}",
+          "metadata_dataset": "arizona_coffee",
+          "metadata_example_idx": 7,
+          "predict_newton_k": "{\"value\": 0.0006766308462610196, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "0.5109272672748519",
+          "predict_scfc_h0": "{\"value\": 1.1171136560510484, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.0003759262657087448, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "0.510936454351018",
+          "predict_rmse_improvement_pct": "-0.0017981181969482494"
+        },
+        {
+          "input": "Noise perturbation example 8 on arizona_coffee",
+          "output": "{\"dataset\": \"arizona_coffee\", \"example_idx\": 8, \"newton\": {\"k\": 0.000722382632502014, \"rmse_c\": 0.6002598419261135, \"mae_c\": 0.40430851159269116}, \"scfc\": {\"h0\": 178.61487806886763, \"m_evap_rate\": 0.0003926032497884098, \"rmse_c\": 0.6007730720189597, \"mae_c\": 0.4033661138725041}, \"comparison\": {\"rmse_improvement_pct\": -0.08550132076124797, \"mae_improvement_pct\": 0.23308876592151775}}",
+          "metadata_dataset": "arizona_coffee",
+          "metadata_example_idx": 8,
+          "predict_newton_k": "{\"value\": 0.000722382632502014, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "0.6002598419261135",
+          "predict_scfc_h0": "{\"value\": 178.61487806886763, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.0003926032497884098, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "0.6007730720189597",
+          "predict_rmse_improvement_pct": "-0.08550132076124797"
+        },
+        {
+          "input": "Noise perturbation example 9 on arizona_coffee",
+          "output": "{\"dataset\": \"arizona_coffee\", \"example_idx\": 9, \"newton\": {\"k\": 0.0007298168853234924, \"rmse_c\": 0.3529419956393989, \"mae_c\": 0.27972090455444615}, \"scfc\": {\"h0\": 997.0520362575229, \"m_evap_rate\": 0.0003565948812444101, \"rmse_c\": 0.3392410212402993, \"mae_c\": 0.26561225744285755}, \"comparison\": {\"rmse_improvement_pct\": 3.881933736527591, \"mae_improvement_pct\": 5.04383007557536}}",
+          "metadata_dataset": "arizona_coffee",
+          "metadata_example_idx": 9,
+          "predict_newton_k": "{\"value\": 0.0007298168853234924, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "0.3529419956393989",
+          "predict_scfc_h0": "{\"value\": 997.0520362575229, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.0003565948812444101, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "0.3392410212402993",
+          "predict_rmse_improvement_pct": "3.881933736527591"
+        },
+        {
+          "input": "Noise perturbation example 10 on arizona_coffee",
+          "output": "{\"dataset\": \"arizona_coffee\", \"example_idx\": 10, \"newton\": {\"k\": 0.0007020465306383118, \"rmse_c\": 0.2743121965874579, \"mae_c\": 0.1893318672714124}, \"scfc\": {\"h0\": 18.395958275653655, \"m_evap_rate\": 0.00038920157629342866, \"rmse_c\": 0.2745003037336072, \"mae_c\": 0.18956468755024114}, \"comparison\": {\"rmse_improvement_pct\": -0.06857410953263202, \"mae_improvement_pct\": -0.12296940931500894}}",
+          "metadata_dataset": "arizona_coffee",
+          "metadata_example_idx": 10,
+          "predict_newton_k": "{\"value\": 0.0007020465306383118, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "0.2743121965874579",
+          "predict_scfc_h0": "{\"value\": 18.395958275653655, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.00038920157629342866, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "0.2745003037336072",
+          "predict_rmse_improvement_pct": "-0.06857410953263202"
+        },
+        {
+          "input": "Noise perturbation example 11 on arizona_coffee",
+          "output": "{\"dataset\": \"arizona_coffee\", \"example_idx\": 11, \"newton\": {\"k\": 0.0007218242756313334, \"rmse_c\": 0.3592505093113731, \"mae_c\": 0.2736118949994096}, \"scfc\": {\"h0\": 121.7395372227691, \"m_evap_rate\": 0.00039511959525610394, \"rmse_c\": 0.3599506729614643, \"mae_c\": 0.2742729037905262}, \"comparison\": {\"rmse_improvement_pct\": -0.19489565969811384, \"mae_improvement_pct\": -0.2415862772040892}}",
+          "metadata_dataset": "arizona_coffee",
+          "metadata_example_idx": 11,
+          "predict_newton_k": "{\"value\": 0.0007218242756313334, \"unit\": \"1/s\"}",
+          "predict_newton_rmse_c": "0.3592505093113731",
+          "predict_scfc_h0": "{\"value\": 121.7395372227691, \"unit\": \"W/(m^2*K^(4/3))\"}",
+          "predict_scfc_m_evap_rate": "{\"value\": 0.00039511959525610394, \"unit\": \"kg/(s*K)\"}",
+          "predict_scfc_rmse_c": "0.3599506729614643",
+          "predict_rmse_improvement_pct": "-0.19489565969811384"
+        }
+      ]
+    }
+  ]
+}
