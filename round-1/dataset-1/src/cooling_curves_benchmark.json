@@ -1,0 +1,3159 @@
+{
+  "dataset_id": "cooling_curves_benchmark",
+  "description": "Benchmark dataset of published temperature-time cooling curves for open-surface liquids, collected from educational resources, physics lab manuals, and published experiments. For comparing Newton's law of cooling against the proposed SCFC model.",
+  "license": "Mixed: CC BY, educational use, open access",
+  "version": "1.0",
+  "created": "2026-11-25",
+  "total_curves": 11,
+  "metadata_schema": {
+    "dataset_id": "string",
+    "source": "string (URL)",
+    "description": "string",
+    "license": "string",
+    "metadata": {
+      "time_unit": "string (seconds|minutes)",
+      "temperature_unit": "string (celsius|fahrenheit)",
+      "ambient_temperature": "number or null",
+      "container": "string",
+      "fluid": "string",
+      "initial_temperature": "number",
+      "n_observations": "integer"
+    },
+    "data": [
+      {
+        "time": "number",
+        "temperature": "number"
+      }
+    ]
+  },
+  "curves": [
+    {
+      "dataset_id": "caveofprogramming_cooling",
+      "source": "https://github.com/caveofprogramming/PythonCourse/blob/main/17-Regression/cooling.csv",
+      "description": "Cooling curve data from Python course regression example",
+      "license": "Unknown (GitHub repo)",
+      "metadata": {
+        "time_unit": "minutes",
+        "temperature_unit": "celsius",
+        "ambient_temperature": null,
+        "container": "unknown",
+        "fluid": "water",
+        "initial_temperature": 94.1
+      },
+      "data": [
+        {
+          "time": 0,
+          "temperature": 94.1
+        },
+        {
+          "time": 1,
+          "temperature": 89.6
+        },
+        {
+          "time": 2,
+          "temperature": 87.0
+        },
+        {
+          "time": 3,
+          "temperature": 84.4
+        },
+        {
+          "time": 4,
+          "temperature": 81.8
+        },
+        {
+          "time": 5,
+          "temperature": 79.4
+        },
+        {
+          "time": 6,
+          "temperature": 77.9
+        },
+        {
+          "time": 7,
+          "temperature": 75.6
+        },
+        {
+          "time": 8,
+          "temperature": 74.2
+        },
+        {
+          "time": 9,
+          "temperature": 72.7
+        },
+        {
+          "time": 10,
+          "temperature": 71.0
+        },
+        {
+          "time": 11,
+          "temperature": 69.5
+        },
+        {
+          "time": 12,
+          "temperature": 68.1
+        },
+        {
+          "time": 13,
+          "temperature": 66.8
+        },
+        {
+          "time": 14,
+          "temperature": 65.7
+        },
+        {
+          "time": 15,
+          "temperature": 64.3
+        },
+        {
+          "time": 16,
+          "temperature": 63.3
+        },
+        {
+          "time": 17,
+          "temperature": 61.7
+        },
+        {
+          "time": 18,
+          "temperature": 61.3
+        },
+        {
+          "time": 19,
+          "temperature": 60.3
+        },
+        {
+          "time": 20,
+          "temperature": 59.0
+        },
+        {
+          "time": 21,
+          "temperature": 58.2
+        },
+        {
+          "time": 22,
+          "temperature": 57.2
+        },
+        {
+          "time": 23,
+          "temperature": 56.5
+        },
+        {
+          "time": 24,
+          "temperature": 55.7
+        },
+        {
+          "time": 25,
+          "temperature": 54.8
+        },
+        {
+          "time": 26,
+          "temperature": 54.1
+        },
+        {
+          "time": 27,
+          "temperature": 53.2
+        },
+        {
+          "time": 28,
+          "temperature": 52.8
+        },
+        {
+          "time": 29,
+          "temperature": 52.1
+        },
+        {
+          "time": 30,
+          "temperature": 51.4
+        },
+        {
+          "time": 31,
+          "temperature": 50.9
+        },
+        {
+          "time": 32,
+          "temperature": 50.3
+        },
+        {
+          "time": 33,
+          "temperature": 49.5
+        },
+        {
+          "time": 34,
+          "temperature": 49.2
+        },
+        {
+          "time": 35,
+          "temperature": 48.7
+        },
+        {
+          "time": 36,
+          "temperature": 48.2
+        },
+        {
+          "time": 37,
+          "temperature": 47.7
+        },
+        {
+          "time": 38,
+          "temperature": 47.1
+        },
+        {
+          "time": 39,
+          "temperature": 47.0
+        },
+        {
+          "time": 40,
+          "temperature": 46.5
+        },
+        {
+          "time": 41,
+          "temperature": 46.1
+        },
+        {
+          "time": 42,
+          "temperature": 45.5
+        },
+        {
+          "time": 43,
+          "temperature": 45.2
+        },
+        {
+          "time": 44,
+          "temperature": 44.8
+        },
+        {
+          "time": 45,
+          "temperature": 44.4
+        },
+        {
+          "time": 46,
+          "temperature": 44.1
+        },
+        {
+          "time": 47,
+          "temperature": 43.6
+        },
+        {
+          "time": 48,
+          "temperature": 43.2
+        },
+        {
+          "time": 49,
+          "temperature": 42.8
+        },
+        {
+          "time": 50,
+          "temperature": 42.2
+        },
+        {
+          "time": 51,
+          "temperature": 42.0
+        },
+        {
+          "time": 52,
+          "temperature": 41.8
+        },
+        {
+          "time": 53,
+          "temperature": 41.4
+        },
+        {
+          "time": 54,
+          "temperature": 41.1
+        },
+        {
+          "time": 55,
+          "temperature": 40.7
+        },
+        {
+          "time": 56,
+          "temperature": 40.5
+        },
+        {
+          "time": 57,
+          "temperature": 40.1
+        },
+        {
+          "time": 58,
+          "temperature": 39.8
+        },
+        {
+          "time": 59,
+          "temperature": 39.5
+        },
+        {
+          "time": 60,
+          "temperature": 39.2
+        },
+        {
+          "time": 61,
+          "temperature": 39.0
+        },
+        {
+          "time": 62,
+          "temperature": 38.6
+        },
+        {
+          "time": 63,
+          "temperature": 38.3
+        },
+        {
+          "time": 64,
+          "temperature": 37.9
+        },
+        {
+          "time": 65,
+          "temperature": 37.9
+        },
+        {
+          "time": 66,
+          "temperature": 37.8
+        },
+        {
+          "time": 67,
+          "temperature": 37.5
+        },
+        {
+          "time": 68,
+          "temperature": 37.1
+        },
+        {
+          "time": 73,
+          "temperature": 36.0
+        }
+      ]
+    },
+    {
+      "dataset_id": "mosaicdata_coolingwater",
+      "source": "https://vincentarelbundock.github.io/Rdatasets/doc/mosaicData/CoolingWater.html",
+      "description": "Temperature of a mug of water as it cools, collected by Stan Wagon",
+      "license": "CC BY (Rdatasets)",
+      "metadata": {
+        "time_unit": "minutes",
+        "temperature_unit": "celsius",
+        "ambient_temperature": null,
+        "container": "mug",
+        "fluid": "water",
+        "initial_temperature": 98.2,
+        "collector": "Stan Wagon",
+        "institution": "Macalester College",
+        "n_observations": 222
+      },
+      "data": [
+        {
+          "time": 0,
+          "temperature": 98.2
+        },
+        {
+          "time": 1,
+          "temperature": 94.4
+        },
+        {
+          "time": 2,
+          "temperature": 91.4
+        },
+        {
+          "time": 3,
+          "temperature": 89.1
+        },
+        {
+          "time": 4,
+          "temperature": 86.9
+        },
+        {
+          "time": 5,
+          "temperature": 84.9
+        },
+        {
+          "time": 6,
+          "temperature": 83.1
+        },
+        {
+          "time": 7,
+          "temperature": 81.2
+        },
+        {
+          "time": 8,
+          "temperature": 79.5
+        },
+        {
+          "time": 9,
+          "temperature": 78.0
+        },
+        {
+          "time": 10,
+          "temperature": 76.5
+        },
+        {
+          "time": 11,
+          "temperature": 75.2
+        },
+        {
+          "time": 12,
+          "temperature": 73.8
+        },
+        {
+          "time": 13,
+          "temperature": 72.6
+        },
+        {
+          "time": 14,
+          "temperature": 71.4
+        },
+        {
+          "time": 15,
+          "temperature": 70.3
+        },
+        {
+          "time": 16,
+          "temperature": 69.3
+        },
+        {
+          "time": 17,
+          "temperature": 68.2
+        },
+        {
+          "time": 18,
+          "temperature": 67.2
+        },
+        {
+          "time": 19,
+          "temperature": 66.3
+        },
+        {
+          "time": 20,
+          "temperature": 65.3
+        },
+        {
+          "time": 21,
+          "temperature": 64.3
+        },
+        {
+          "time": 22,
+          "temperature": 63.7
+        },
+        {
+          "time": 23,
+          "temperature": 62.9
+        },
+        {
+          "time": 24,
+          "temperature": 62.1
+        },
+        {
+          "time": 25,
+          "temperature": 61.5
+        },
+        {
+          "time": 26,
+          "temperature": 60.7
+        },
+        {
+          "time": 27,
+          "temperature": 60.0
+        },
+        {
+          "time": 28,
+          "temperature": 59.4
+        },
+        {
+          "time": 29,
+          "temperature": 58.6
+        },
+        {
+          "time": 30,
+          "temperature": 58.1
+        },
+        {
+          "time": 31,
+          "temperature": 57.4
+        },
+        {
+          "time": 32,
+          "temperature": 56.8
+        },
+        {
+          "time": 33,
+          "temperature": 56.1
+        },
+        {
+          "time": 34,
+          "temperature": 55.6
+        },
+        {
+          "time": 35,
+          "temperature": 55.0
+        },
+        {
+          "time": 36,
+          "temperature": 54.5
+        },
+        {
+          "time": 37,
+          "temperature": 54.0
+        },
+        {
+          "time": 38,
+          "temperature": 53.5
+        },
+        {
+          "time": 39,
+          "temperature": 53.0
+        },
+        {
+          "time": 40,
+          "temperature": 52.5
+        },
+        {
+          "time": 41,
+          "temperature": 52.1
+        },
+        {
+          "time": 42,
+          "temperature": 51.7
+        },
+        {
+          "time": 43,
+          "temperature": 51.3
+        },
+        {
+          "time": 44,
+          "temperature": 50.8
+        },
+        {
+          "time": 45,
+          "temperature": 50.5
+        },
+        {
+          "time": 46,
+          "temperature": 50.0
+        },
+        {
+          "time": 47,
+          "temperature": 49.6
+        },
+        {
+          "time": 48,
+          "temperature": 49.2
+        },
+        {
+          "time": 49,
+          "temperature": 48.8
+        },
+        {
+          "time": 50,
+          "temperature": 48.5
+        },
+        {
+          "time": 51,
+          "temperature": 48.1
+        },
+        {
+          "time": 52,
+          "temperature": 47.7
+        },
+        {
+          "time": 53,
+          "temperature": 47.3
+        },
+        {
+          "time": 54,
+          "temperature": 47.0
+        },
+        {
+          "time": 55,
+          "temperature": 46.6
+        },
+        {
+          "time": 56,
+          "temperature": 46.3
+        },
+        {
+          "time": 57,
+          "temperature": 46.0
+        },
+        {
+          "time": 58,
+          "temperature": 45.7
+        },
+        {
+          "time": 59,
+          "temperature": 45.3
+        },
+        {
+          "time": 60,
+          "temperature": 45.1
+        },
+        {
+          "time": 61,
+          "temperature": 44.7
+        },
+        {
+          "time": 62,
+          "temperature": 44.5
+        },
+        {
+          "time": 63,
+          "temperature": 44.2
+        },
+        {
+          "time": 64,
+          "temperature": 43.8
+        },
+        {
+          "time": 65,
+          "temperature": 43.6
+        },
+        {
+          "time": 66,
+          "temperature": 43.2
+        },
+        {
+          "time": 67,
+          "temperature": 43.0
+        },
+        {
+          "time": 68,
+          "temperature": 42.7
+        },
+        {
+          "time": 69,
+          "temperature": 42.5
+        },
+        {
+          "time": 70,
+          "temperature": 42.2
+        },
+        {
+          "time": 71,
+          "temperature": 42.0
+        },
+        {
+          "time": 72,
+          "temperature": 41.6
+        },
+        {
+          "time": 73,
+          "temperature": 41.5
+        },
+        {
+          "time": 74,
+          "temperature": 41.2
+        },
+        {
+          "time": 75,
+          "temperature": 41.0
+        },
+        {
+          "time": 76,
+          "temperature": 40.7
+        },
+        {
+          "time": 77,
+          "temperature": 40.6
+        },
+        {
+          "time": 78,
+          "temperature": 40.3
+        },
+        {
+          "time": 79,
+          "temperature": 40.2
+        },
+        {
+          "time": 80,
+          "temperature": 40.0
+        },
+        {
+          "time": 81,
+          "temperature": 39.5
+        },
+        {
+          "time": 82,
+          "temperature": 39.3
+        },
+        {
+          "time": 83,
+          "temperature": 39.1
+        },
+        {
+          "time": 84,
+          "temperature": 38.8
+        },
+        {
+          "time": 85,
+          "temperature": 38.7
+        },
+        {
+          "time": 86,
+          "temperature": 38.4
+        },
+        {
+          "time": 87,
+          "temperature": 38.2
+        },
+        {
+          "time": 88,
+          "temperature": 38.1
+        },
+        {
+          "time": 89,
+          "temperature": 37.9
+        },
+        {
+          "time": 90,
+          "temperature": 37.7
+        },
+        {
+          "time": 91,
+          "temperature": 37.5
+        },
+        {
+          "time": 92,
+          "temperature": 37.3
+        },
+        {
+          "time": 93,
+          "temperature": 37.1
+        },
+        {
+          "time": 94,
+          "temperature": 37.0
+        },
+        {
+          "time": 95,
+          "temperature": 36.8
+        },
+        {
+          "time": 96,
+          "temperature": 36.6
+        },
+        {
+          "time": 97,
+          "temperature": 36.5
+        },
+        {
+          "time": 98,
+          "temperature": 36.3
+        },
+        {
+          "time": 99,
+          "temperature": 36.2
+        },
+        {
+          "time": 100,
+          "temperature": 36.0
+        },
+        {
+          "time": 101,
+          "temperature": 35.8
+        },
+        {
+          "time": 102,
+          "temperature": 35.7
+        },
+        {
+          "time": 103,
+          "temperature": 35.6
+        },
+        {
+          "time": 104,
+          "temperature": 35.4
+        },
+        {
+          "time": 105,
+          "temperature": 35.3
+        },
+        {
+          "time": 106,
+          "temperature": 35.1
+        },
+        {
+          "time": 107,
+          "temperature": 35.0
+        },
+        {
+          "time": 108,
+          "temperature": 34.9
+        },
+        {
+          "time": 109,
+          "temperature": 34.7
+        },
+        {
+          "time": 110,
+          "temperature": 34.5
+        },
+        {
+          "time": 111,
+          "temperature": 34.4
+        },
+        {
+          "time": 112,
+          "temperature": 34.2
+        },
+        {
+          "time": 113,
+          "temperature": 34.1
+        },
+        {
+          "time": 114,
+          "temperature": 33.9
+        },
+        {
+          "time": 115,
+          "temperature": 33.8
+        },
+        {
+          "time": 116,
+          "temperature": 33.7
+        },
+        {
+          "time": 117,
+          "temperature": 33.5
+        },
+        {
+          "time": 118,
+          "temperature": 33.4
+        },
+        {
+          "time": 119,
+          "temperature": 33.3
+        },
+        {
+          "time": 120,
+          "temperature": 33.2
+        },
+        {
+          "time": 121,
+          "temperature": 33.0
+        },
+        {
+          "time": 122,
+          "temperature": 32.9
+        },
+        {
+          "time": 123,
+          "temperature": 32.8
+        },
+        {
+          "time": 124,
+          "temperature": 32.7
+        },
+        {
+          "time": 125,
+          "temperature": 32.6
+        },
+        {
+          "time": 126,
+          "temperature": 32.4
+        },
+        {
+          "time": 127,
+          "temperature": 32.3
+        },
+        {
+          "time": 128,
+          "temperature": 32.2
+        },
+        {
+          "time": 129,
+          "temperature": 32.1
+        },
+        {
+          "time": 130,
+          "temperature": 32.0
+        },
+        {
+          "time": 131,
+          "temperature": 31.9
+        },
+        {
+          "time": 132,
+          "temperature": 31.8
+        },
+        {
+          "time": 133,
+          "temperature": 31.7
+        },
+        {
+          "time": 134,
+          "temperature": 31.5
+        },
+        {
+          "time": 135,
+          "temperature": 31.5
+        },
+        {
+          "time": 136,
+          "temperature": 31.4
+        },
+        {
+          "time": 137,
+          "temperature": 31.3
+        },
+        {
+          "time": 138,
+          "temperature": 31.1
+        },
+        {
+          "time": 139,
+          "temperature": 31.1
+        },
+        {
+          "time": 140,
+          "temperature": 31.0
+        },
+        {
+          "time": 141,
+          "temperature": 30.9
+        },
+        {
+          "time": 142,
+          "temperature": 30.7
+        },
+        {
+          "time": 143,
+          "temperature": 30.7
+        },
+        {
+          "time": 144,
+          "temperature": 30.6
+        },
+        {
+          "time": 145,
+          "temperature": 30.5
+        },
+        {
+          "time": 146,
+          "temperature": 30.4
+        },
+        {
+          "time": 147,
+          "temperature": 30.3
+        },
+        {
+          "time": 148,
+          "temperature": 30.2
+        },
+        {
+          "time": 149,
+          "temperature": 30.1
+        },
+        {
+          "time": 150,
+          "temperature": 30.1
+        },
+        {
+          "time": 151,
+          "temperature": 30.0
+        },
+        {
+          "time": 152,
+          "temperature": 30.0
+        },
+        {
+          "time": 153,
+          "temperature": 29.8
+        },
+        {
+          "time": 154,
+          "temperature": 29.8
+        },
+        {
+          "time": 155,
+          "temperature": 29.7
+        },
+        {
+          "time": 156,
+          "temperature": 29.6
+        },
+        {
+          "time": 157,
+          "temperature": 29.5
+        },
+        {
+          "time": 158,
+          "temperature": 29.4
+        },
+        {
+          "time": 159,
+          "temperature": 29.4
+        },
+        {
+          "time": 160,
+          "temperature": 29.2
+        },
+        {
+          "time": 161,
+          "temperature": 29.2
+        },
+        {
+          "time": 162,
+          "temperature": 29.1
+        },
+        {
+          "time": 163,
+          "temperature": 29.0
+        },
+        {
+          "time": 164,
+          "temperature": 29.0
+        },
+        {
+          "time": 165,
+          "temperature": 28.9
+        },
+        {
+          "time": 166,
+          "temperature": 28.8
+        },
+        {
+          "time": 167,
+          "temperature": 28.7
+        },
+        {
+          "time": 168,
+          "temperature": 28.6
+        },
+        {
+          "time": 169,
+          "temperature": 28.6
+        },
+        {
+          "time": 170,
+          "temperature": 28.5
+        },
+        {
+          "time": 171,
+          "temperature": 28.4
+        },
+        {
+          "time": 172,
+          "temperature": 28.4
+        },
+        {
+          "time": 173,
+          "temperature": 28.3
+        },
+        {
+          "time": 174,
+          "temperature": 28.2
+        },
+        {
+          "time": 175,
+          "temperature": 28.2
+        },
+        {
+          "time": 176,
+          "temperature": 28.1
+        },
+        {
+          "time": 177,
+          "temperature": 28.0
+        },
+        {
+          "time": 178,
+          "temperature": 28.0
+        },
+        {
+          "time": 179,
+          "temperature": 27.9
+        },
+        {
+          "time": 180,
+          "temperature": 27.8
+        },
+        {
+          "time": 181,
+          "temperature": 27.8
+        },
+        {
+          "time": 182,
+          "temperature": 27.7
+        },
+        {
+          "time": 183,
+          "temperature": 27.7
+        },
+        {
+          "time": 184,
+          "temperature": 27.6
+        },
+        {
+          "time": 185,
+          "temperature": 27.5
+        },
+        {
+          "time": 186,
+          "temperature": 27.5
+        },
+        {
+          "time": 187,
+          "temperature": 27.4
+        },
+        {
+          "time": 188,
+          "temperature": 27.4
+        },
+        {
+          "time": 189,
+          "temperature": 27.3
+        },
+        {
+          "time": 190,
+          "temperature": 27.2
+        },
+        {
+          "time": 191,
+          "temperature": 27.2
+        },
+        {
+          "time": 192,
+          "temperature": 27.1
+        },
+        {
+          "time": 193,
+          "temperature": 27.1
+        },
+        {
+          "time": 194,
+          "temperature": 27.0
+        },
+        {
+          "time": 195,
+          "temperature": 27.0
+        },
+        {
+          "time": 196,
+          "temperature": 26.9
+        },
+        {
+          "time": 197,
+          "temperature": 26.9
+        },
+        {
+          "time": 198,
+          "temperature": 26.8
+        },
+        {
+          "time": 199,
+          "temperature": 26.8
+        },
+        {
+          "time": 200,
+          "temperature": 26.7
+        },
+        {
+          "time": 201,
+          "temperature": 26.7
+        },
+        {
+          "time": 202,
+          "temperature": 26.6
+        },
+        {
+          "time": 203,
+          "temperature": 26.6
+        },
+        {
+          "time": 204,
+          "temperature": 26.5
+        },
+        {
+          "time": 205,
+          "temperature": 26.5
+        },
+        {
+          "time": 206,
+          "temperature": 26.4
+        },
+        {
+          "time": 207,
+          "temperature": 26.4
+        },
+        {
+          "time": 208,
+          "temperature": 26.4
+        },
+        {
+          "time": 209,
+          "temperature": 26.3
+        },
+        {
+          "time": 210,
+          "temperature": 26.2
+        },
+        {
+          "time": 211,
+          "temperature": 26.2
+        },
+        {
+          "time": 212,
+          "temperature": 26.2
+        },
+        {
+          "time": 213,
+          "temperature": 26.1
+        },
+        {
+          "time": 214,
+          "temperature": 26.1
+        },
+        {
+          "time": 215,
+          "temperature": 26.1
+        },
+        {
+          "time": 216,
+          "temperature": 26.0
+        },
+        {
+          "time": 217,
+          "temperature": 26.0
+        },
+        {
+          "time": 218,
+          "temperature": 26.0
+        },
+        {
+          "time": 219,
+          "temperature": 25.9
+        },
+        {
+          "time": 220,
+          "temperature": 25.9
+        },
+        {
+          "time": 221,
+          "temperature": 25.8
+        }
+      ]
+    },
+    {
+      "dataset_id": "eeps_zoo_cooling",
+      "source": "https://eeps.com/zoo/cages/Cooling.html",
+      "description": "Hot water in a beaker, Vernier temperature probe recording every 6 seconds for an hour (data per minute)",
+      "license": "NSF supported educational use",
+      "metadata": {
+        "time_unit": "minutes",
+        "temperature_unit": "celsius",
+        "ambient_temperature": null,
+        "container": "beaker",
+        "fluid": "water",
+        "initial_temperature": 49.0742,
+        "collectors": "Harold Asturias, Pam Beck, Tim Erickson",
+        "date": "June 2003",
+        "n_observations": 61
+      },
+      "data": [
+        {
+          "time": 0,
+          "temperature": 49.0742
+        },
+        {
+          "time": 1,
+          "temperature": 48.6132
+        },
+        {
+          "time": 2,
+          "temperature": 48.1843
+        },
+        {
+          "time": 3,
+          "temperature": 47.8435
+        },
+        {
+          "time": 4,
+          "temperature": 47.4483
+        },
+        {
+          "time": 5,
+          "temperature": 47.1116
+        },
+        {
+          "time": 6,
+          "temperature": 46.7489
+        },
+        {
+          "time": 7,
+          "temperature": 46.3884
+        },
+        {
+          "time": 8,
+          "temperature": 46.085
+        },
+        {
+          "time": 9,
+          "temperature": 45.7282
+        },
+        {
+          "time": 10,
+          "temperature": 45.4007
+        },
+        {
+          "time": 11,
+          "temperature": 45.0477
+        },
+        {
+          "time": 12,
+          "temperature": 44.6697
+        },
+        {
+          "time": 13,
+          "temperature": 44.4278
+        },
+        {
+          "time": 14,
+          "temperature": 44.1867
+        },
+        {
+          "time": 15,
+          "temperature": 43.8135
+        },
+        {
+          "time": 16,
+          "temperature": 43.5216
+        },
+        {
+          "time": 17,
+          "temperature": 43.2573
+        },
+        {
+          "time": 18,
+          "temperature": 42.9414
+        },
+        {
+          "time": 19,
+          "temperature": 42.7054
+        },
+        {
+          "time": 20,
+          "temperature": 42.4441
+        },
+        {
+          "time": 21,
+          "temperature": 42.1576
+        },
+        {
+          "time": 22,
+          "temperature": 41.8723
+        },
+        {
+          "time": 23,
+          "temperature": 41.6138
+        },
+        {
+          "time": 24,
+          "temperature": 41.3048
+        },
+        {
+          "time": 25,
+          "temperature": 41.1251
+        },
+        {
+          "time": 26,
+          "temperature": 40.8691
+        },
+        {
+          "time": 27,
+          "temperature": 40.5629
+        },
+        {
+          "time": 28,
+          "temperature": 40.3848
+        },
+        {
+          "time": 29,
+          "temperature": 40.1565
+        },
+        {
+          "time": 30,
+          "temperature": 39.8782
+        },
+        {
+          "time": 31,
+          "temperature": 39.6007
+        },
+        {
+          "time": 32,
+          "temperature": 39.4498
+        },
+        {
+          "time": 33,
+          "temperature": 39.1738
+        },
+        {
+          "time": 34,
+          "temperature": 38.8486
+        },
+        {
+          "time": 35,
+          "temperature": 38.7737
+        },
+        {
+          "time": 36,
+          "temperature": 38.5495
+        },
+        {
+          "time": 37,
+          "temperature": 38.301
+        },
+        {
+          "time": 38,
+          "temperature": 38.0778
+        },
+        {
+          "time": 39,
+          "temperature": 37.9541
+        },
+        {
+          "time": 40,
+          "temperature": 37.7564
+        },
+        {
+          "time": 41,
+          "temperature": 37.5099
+        },
+        {
+          "time": 42,
+          "temperature": 37.3623
+        },
+        {
+          "time": 43,
+          "temperature": 37.1413
+        },
+        {
+          "time": 44,
+          "temperature": 36.9697
+        },
+        {
+          "time": 45,
+          "temperature": 36.7495
+        },
+        {
+          "time": 46,
+          "temperature": 36.6029
+        },
+        {
+          "time": 47,
+          "temperature": 36.4322
+        },
+        {
+          "time": 48,
+          "temperature": 36.2861
+        },
+        {
+          "time": 49,
+          "temperature": 36.1401
+        },
+        {
+          "time": 50,
+          "temperature": 35.9216
+        },
+        {
+          "time": 51,
+          "temperature": 35.7519
+        },
+        {
+          "time": 52,
+          "temperature": 35.6308
+        },
+        {
+          "time": 53,
+          "temperature": 35.4857
+        },
+        {
+          "time": 54,
+          "temperature": 35.3166
+        },
+        {
+          "time": 55,
+          "temperature": 35.1237
+        },
+        {
+          "time": 56,
+          "temperature": 34.9792
+        },
+        {
+          "time": 57,
+          "temperature": 34.8829
+        },
+        {
+          "time": 58,
+          "temperature": 34.7387
+        },
+        {
+          "time": 59,
+          "temperature": 34.5946
+        },
+        {
+          "time": 60,
+          "temperature": 34.4747
+        }
+      ]
+    },
+    {
+      "dataset_id": "openstemlab_cooling",
+      "source": "https://openstemlab.org/physics/newtons-cooling/sample-data.csv",
+      "description": "Simulated demonstration data for Newton's law of cooling lab report",
+      "license": "Open educational resource",
+      "metadata": {
+        "time_unit": "minutes",
+        "temperature_unit": "celsius",
+        "ambient_temperature": 20.0,
+        "container": "polished copper calorimeter with insulated lid, 120 mL",
+        "fluid": "water (100g)",
+        "initial_temperature": 80.0,
+        "cooling_constant_model": 0.096,
+        "n_observations": 5,
+        "note": "Simulated data from ideal teaching model, not physical experiment"
+      },
+      "data": [
+        {
+          "time": 2.0,
+          "temperature": 69.52
+        },
+        {
+          "time": 4.0,
+          "temperature": 60.87
+        },
+        {
+          "time": 6.0,
+          "temperature": 53.73
+        },
+        {
+          "time": 8.0,
+          "temperature": 47.84
+        },
+        {
+          "time": 10.0,
+          "temperature": 42.97
+        }
+      ]
+    },
+    {
+      "dataset_id": "uga_cooling",
+      "source": "https://jwilson.coe.uga.edu/emt668/EMAT6680.2002.Fall/Irwin/assign12/cooling.html",
+      "description": "Boiling water cooling in a cup, 31 measurements at 1-minute intervals",
+      "license": "Educational (University of Georgia)",
+      "metadata": {
+        "time_unit": "minutes",
+        "temperature_unit": "fahrenheit",
+        "ambient_temperature": 71,
+        "container": "cup",
+        "fluid": "water",
+        "initial_temperature": 212,
+        "collector": "Sarah Ledford",
+        "institution": "University of Georgia",
+        "n_observations": 31
+      },
+      "data": [
+        {
+          "time": 0,
+          "temperature": 212
+        },
+        {
+          "time": 1,
+          "temperature": 207
+        },
+        {
+          "time": 2,
+          "temperature": 202
+        },
+        {
+          "time": 3,
+          "temperature": 198
+        },
+        {
+          "time": 4,
+          "temperature": 194
+        },
+        {
+          "time": 5,
+          "temperature": 189
+        },
+        {
+          "time": 6,
+          "temperature": 185
+        },
+        {
+          "time": 7,
+          "temperature": 180
+        },
+        {
+          "time": 8,
+          "temperature": 176
+        },
+        {
+          "time": 9,
+          "temperature": 173
+        },
+        {
+          "time": 10,
+          "temperature": 169
+        },
+        {
+          "time": 11,
+          "temperature": 166
+        },
+        {
+          "time": 12,
+          "temperature": 162
+        },
+        {
+          "time": 13,
+          "temperature": 159
+        },
+        {
+          "time": 14,
+          "temperature": 156
+        },
+        {
+          "time": 15,
+          "temperature": 153
+        },
+        {
+          "time": 16,
+          "temperature": 151
+        },
+        {
+          "time": 17,
+          "temperature": 150
+        },
+        {
+          "time": 18,
+          "temperature": 148
+        },
+        {
+          "time": 19,
+          "temperature": 146
+        },
+        {
+          "time": 20,
+          "temperature": 144
+        },
+        {
+          "time": 21,
+          "temperature": 141
+        },
+        {
+          "time": 22,
+          "temperature": 140
+        },
+        {
+          "time": 23,
+          "temperature": 139
+        },
+        {
+          "time": 24,
+          "temperature": 137
+        },
+        {
+          "time": 25,
+          "temperature": 135
+        },
+        {
+          "time": 26,
+          "temperature": 133
+        },
+        {
+          "time": 27,
+          "temperature": 132
+        },
+        {
+          "time": 28,
+          "temperature": 131
+        },
+        {
+          "time": 29,
+          "temperature": 130
+        },
+        {
+          "time": 30,
+          "temperature": 129
+        }
+      ]
+    },
+    {
+      "dataset_id": "uga_ti_cooling",
+      "source": "https://jwilson.coe.uga.edu/emt668/emt668.folders.f97/norton/Assignment%2012/TI%20Cool%20Data.html",
+      "description": "Cooling of boiling water measured with TI-83 and CBL temperature probe every minute for 30 minutes",
+      "license": "Educational (University of Georgia)",
+      "metadata": {
+        "time_unit": "seconds",
+        "temperature_unit": "celsius",
+        "ambient_temperature": null,
+        "container": "unknown",
+        "fluid": "water",
+        "initial_temperature": 89.23,
+        "collector": "Andy Norton",
+        "institution": "University of Georgia",
+        "n_observations": 31
+      },
+      "data": [
+        {
+          "time": 0,
+          "temperature": 89.23
+        },
+        {
+          "time": 60,
+          "temperature": 89.23
+        },
+        {
+          "time": 120,
+          "temperature": 85.42
+        },
+        {
+          "time": 180,
+          "temperature": 82.53
+        },
+        {
+          "time": 240,
+          "temperature": 79.91
+        },
+        {
+          "time": 300,
+          "temperature": 77.67
+        },
+        {
+          "time": 360,
+          "temperature": 75.61
+        },
+        {
+          "time": 420,
+          "temperature": 73.67
+        },
+        {
+          "time": 480,
+          "temperature": 71.75
+        },
+        {
+          "time": 540,
+          "temperature": 70.2
+        },
+        {
+          "time": 600,
+          "temperature": 68.92
+        },
+        {
+          "time": 660,
+          "temperature": 67.41
+        },
+        {
+          "time": 720,
+          "temperature": 66.02
+        },
+        {
+          "time": 780,
+          "temperature": 64.67
+        },
+        {
+          "time": 840,
+          "temperature": 63.48
+        },
+        {
+          "time": 900,
+          "temperature": 62.21
+        },
+        {
+          "time": 960,
+          "temperature": 61.26
+        },
+        {
+          "time": 1020,
+          "temperature": 60.05
+        },
+        {
+          "time": 1080,
+          "temperature": 58.97
+        },
+        {
+          "time": 1140,
+          "temperature": 58.14
+        },
+        {
+          "time": 1200,
+          "temperature": 57.26
+        },
+        {
+          "time": 1260,
+          "temperature": 56.46
+        },
+        {
+          "time": 1320,
+          "temperature": 55.52
+        },
+        {
+          "time": 1380,
+          "temperature": 54.68
+        },
+        {
+          "time": 1440,
+          "temperature": 53.92
+        },
+        {
+          "time": 1500,
+          "temperature": 53.11
+        },
+        {
+          "time": 1560,
+          "temperature": 52.37
+        },
+        {
+          "time": 1620,
+          "temperature": 51.79
+        },
+        {
+          "time": 1680,
+          "temperature": 50.92
+        },
+        {
+          "time": 1740,
+          "temperature": 50.43
+        },
+        {
+          "time": 1800,
+          "temperature": 49.86
+        }
+      ]
+    },
+    {
+      "dataset_id": "fastr2_coolingwater1",
+      "source": "https://github.com/rpruim/fastR2/blob/main/data-raw/CoolingWater.csv",
+      "description": "Cooling water data from Stan Wagon and students at Macalester College, extracted from plot in Wagon (2013)",
+      "license": "CC BY (fastR2 package)",
+      "metadata": {
+        "time_unit": "seconds",
+        "temperature_unit": "fahrenheit",
+        "ambient_temperature": null,
+        "container": "mug",
+        "fluid": "water",
+        "initial_temperature": 210,
+        "collector": "Stan Wagon and students",
+        "institution": "Macalester College",
+        "reference": "R. Portmann and S. Wagon. 'How quickly does hot water cool?' Mathematica in Education and Research, 10(3):1-9, July 2005.",
+        "n_observations": 101
+      },
+      "data": [
+        {
+          "time": 0,
+          "temperature": 210
+        },
+        {
+          "time": 25,
+          "temperature": 204
+        },
+        {
+          "time": 34,
+          "temperature": 200
+        },
+        {
+          "time": 42,
+          "temperature": 198
+        },
+        {
+          "time": 54,
+          "temperature": 196
+        },
+        {
+          "time": 63,
+          "temperature": 194
+        },
+        {
+          "time": 80,
+          "temperature": 192
+        },
+        {
+          "time": 89,
+          "temperature": 190
+        },
+        {
+          "time": 103,
+          "temperature": 188
+        },
+        {
+          "time": 115,
+          "temperature": 186
+        },
+        {
+          "time": 131,
+          "temperature": 184
+        },
+        {
+          "time": 145,
+          "temperature": 182
+        },
+        {
+          "time": 158,
+          "temperature": 180
+        },
+        {
+          "time": 175,
+          "temperature": 178
+        },
+        {
+          "time": 195,
+          "temperature": 176
+        },
+        {
+          "time": 213,
+          "temperature": 174
+        },
+        {
+          "time": 225,
+          "temperature": 172
+        },
+        {
+          "time": 250,
+          "temperature": 170
+        },
+        {
+          "time": 274,
+          "temperature": 168
+        },
+        {
+          "time": 298,
+          "temperature": 166
+        },
+        {
+          "time": 315,
+          "temperature": 164
+        },
+        {
+          "time": 335,
+          "temperature": 162
+        },
+        {
+          "time": 353,
+          "temperature": 160
+        },
+        {
+          "time": 387,
+          "temperature": 158
+        },
+        {
+          "time": 411,
+          "temperature": 156
+        },
+        {
+          "time": 440,
+          "temperature": 154
+        },
+        {
+          "time": 475,
+          "temperature": 152
+        },
+        {
+          "time": 492,
+          "temperature": 150
+        },
+        {
+          "time": 520,
+          "temperature": 150
+        },
+        {
+          "time": 530,
+          "temperature": 148
+        },
+        {
+          "time": 550,
+          "temperature": 148
+        },
+        {
+          "time": 560,
+          "temperature": 147
+        },
+        {
+          "time": 570,
+          "temperature": 146
+        },
+        {
+          "time": 585,
+          "temperature": 145
+        },
+        {
+          "time": 600,
+          "temperature": 144
+        },
+        {
+          "time": 610,
+          "temperature": 144
+        },
+        {
+          "time": 620,
+          "temperature": 144
+        },
+        {
+          "time": 630,
+          "temperature": 143
+        },
+        {
+          "time": 640,
+          "temperature": 143
+        },
+        {
+          "time": 647,
+          "temperature": 142
+        },
+        {
+          "time": 660,
+          "temperature": 142
+        },
+        {
+          "time": 670,
+          "temperature": 141
+        },
+        {
+          "time": 680,
+          "temperature": 141
+        },
+        {
+          "time": 690,
+          "temperature": 140
+        },
+        {
+          "time": 700,
+          "temperature": 140
+        },
+        {
+          "time": 710,
+          "temperature": 139.5
+        },
+        {
+          "time": 720,
+          "temperature": 139
+        },
+        {
+          "time": 730,
+          "temperature": 139
+        },
+        {
+          "time": 740,
+          "temperature": 138
+        },
+        {
+          "time": 750,
+          "temperature": 138
+        },
+        {
+          "time": 760,
+          "temperature": 137
+        },
+        {
+          "time": 770,
+          "temperature": 137
+        },
+        {
+          "time": 778,
+          "temperature": 136
+        },
+        {
+          "time": 790,
+          "temperature": 136
+        },
+        {
+          "time": 800,
+          "temperature": 136
+        },
+        {
+          "time": 810,
+          "temperature": 135
+        },
+        {
+          "time": 820,
+          "temperature": 135
+        },
+        {
+          "time": 830,
+          "temperature": 134
+        },
+        {
+          "time": 840,
+          "temperature": 134
+        },
+        {
+          "time": 850,
+          "temperature": 133
+        },
+        {
+          "time": 860,
+          "temperature": 133
+        },
+        {
+          "time": 870,
+          "temperature": 133
+        },
+        {
+          "time": 880,
+          "temperature": 132.5
+        },
+        {
+          "time": 890,
+          "temperature": 132
+        },
+        {
+          "time": 900,
+          "temperature": 132
+        },
+        {
+          "time": 910,
+          "temperature": 131
+        },
+        {
+          "time": 920,
+          "temperature": 131
+        },
+        {
+          "time": 930,
+          "temperature": 131
+        },
+        {
+          "time": 940,
+          "temperature": 130
+        },
+        {
+          "time": 950,
+          "temperature": 130
+        },
+        {
+          "time": 960,
+          "temperature": 129.5
+        },
+        {
+          "time": 970,
+          "temperature": 129
+        },
+        {
+          "time": 980,
+          "temperature": 129
+        },
+        {
+          "time": 990,
+          "temperature": 128.5
+        },
+        {
+          "time": 1000,
+          "temperature": 128
+        },
+        {
+          "time": 1010,
+          "temperature": 128
+        },
+        {
+          "time": 1020,
+          "temperature": 128
+        },
+        {
+          "time": 1030,
+          "temperature": 127.5
+        },
+        {
+          "time": 1040,
+          "temperature": 127
+        },
+        {
+          "time": 1050,
+          "temperature": 127
+        },
+        {
+          "time": 1060,
+          "temperature": 126
+        },
+        {
+          "time": 1070,
+          "temperature": 126
+        },
+        {
+          "time": 1080,
+          "temperature": 126
+        },
+        {
+          "time": 1090,
+          "temperature": 125.5
+        },
+        {
+          "time": 1100,
+          "temperature": 125
+        },
+        {
+          "time": 1110,
+          "temperature": 125
+        },
+        {
+          "time": 1120,
+          "temperature": 124.5
+        },
+        {
+          "time": 1130,
+          "temperature": 124
+        },
+        {
+          "time": 1140,
+          "temperature": 124
+        },
+        {
+          "time": 1150,
+          "temperature": 123.5
+        },
+        {
+          "time": 1160,
+          "temperature": 123
+        },
+        {
+          "time": 1170,
+          "temperature": 123
+        },
+        {
+          "time": 1180,
+          "temperature": 122.5
+        },
+        {
+          "time": 1190,
+          "temperature": 122
+        },
+        {
+          "time": 1200,
+          "temperature": 122
+        },
+        {
+          "time": 1210,
+          "temperature": 122
+        },
+        {
+          "time": 1220,
+          "temperature": 121.5
+        },
+        {
+          "time": 1230,
+          "temperature": 121
+        },
+        {
+          "time": 1240,
+          "temperature": 121
+        },
+        {
+          "time": 1250,
+          "temperature": 121
+        },
+        {
+          "time": 1260,
+          "temperature": 120.5
+        },
+        {
+          "time": 1270,
+          "temperature": 120.5
+        },
+        {
+          "time": 1280,
+          "temperature": 120
+        },
+        {
+          "time": 1300,
+          "temperature": 120
+        },
+        {
+          "time": 1340,
+          "temperature": 119
+        },
+        {
+          "time": 1356,
+          "temperature": 118
+        },
+        {
+          "time": 1380,
+          "temperature": 117
+        },
+        {
+          "time": 1418,
+          "temperature": 116
+        },
+        {
+          "time": 1725,
+          "temperature": 111
+        },
+        {
+          "time": 1740,
+          "temperature": 110.5
+        },
+        {
+          "time": 1825,
+          "temperature": 109
+        },
+        {
+          "time": 1890,
+          "temperature": 108
+        },
+        {
+          "time": 1955,
+          "temperature": 107
+        },
+        {
+          "time": 2022,
+          "temperature": 106
+        },
+        {
+          "time": 2077,
+          "temperature": 105
+        },
+        {
+          "time": 2160,
+          "temperature": 104
+        },
+        {
+          "time": 2244,
+          "temperature": 103
+        },
+        {
+          "time": 2320,
+          "temperature": 102
+        },
+        {
+          "time": 2408,
+          "temperature": 101
+        },
+        {
+          "time": 2473,
+          "temperature": 100
+        },
+        {
+          "time": 2613,
+          "temperature": 99
+        }
+      ]
+    },
+    {
+      "dataset_id": "fastr2_coolingwater2",
+      "source": "https://github.com/rpruim/fastR2/blob/main/data-raw/CoolingWater2.csv",
+      "description": "Cooling water control data from Stan Wagon and students, finer time resolution",
+      "license": "CC BY (fastR2 package)",
+      "metadata": {
+        "time_unit": "minutes",
+        "temperature_unit": "celsius",
+        "ambient_temperature": null,
+        "container": "mug",
+        "fluid": "water",
+        "initial_temperature": 98.26,
+        "collector": "Stan Wagon and students",
+        "institution": "Macalester College",
+        "reference": "R. Portmann and S. Wagon. 'How quickly does hot water cool?' Mathematica in Education and Research, 10(3):1-9, July 2005.",
+        "n_observations": 54,
+        "condition": "control"
+      },
+      "data": [
+        {
+          "time": 0.0858778625954244,
+          "temperature": 98.25862721594851
+        },
+        {
+          "time": 3.9503816793893023,
+          "temperature": 87.01469938805123
+        },
+        {
+          "time": 8.101145038167935,
+          "temperature": 79.57210901520408
+        },
+        {
+          "time": 12.108778625954201,
+          "temperature": 73.7825689230963
+        },
+        {
+          "time": 16.116412213740446,
+          "temperature": 69.31534288057534
+        },
+        {
+          "time": 20.124045801526705,
+          "temperature": 65.26133997855024
+        },
+        {
+          "time": 24.131679389312964,
+          "temperature": 62.033783357516874
+        },
+        {
+          "time": 28.139312977099237,
+          "temperature": 59.38473913317771
+        },
+        {
+          "time": 32.14694656488548,
+          "temperature": 56.73569490883855
+        },
+        {
+          "time": 36.15458015267174,
+          "temperature": 54.49987382499526
+        },
+        {
+          "time": 40.01908396946564,
+          "temperature": 52.5121443442054
+        },
+        {
+          "time": 44.16984732824427,
+          "temperature": 50.77203331020124
+        },
+        {
+          "time": 48.03435114503816,
+          "temperature": 49.11488234180808
+        },
+        {
+          "time": 52.18511450381679,
+          "temperature": 47.622705192101435
+        },
+        {
+          "time": 56.19274809160305,
+          "temperature": 46.213330389249876
+        },
+        {
+          "time": 60.200381679389295,
+          "temperature": 45.05188947069584
+        },
+        {
+          "time": 64.20801526717555,
+          "temperature": 43.72515929594344
+        },
+        {
+          "time": 68.07251908396945,
+          "temperature": 42.563876096145336
+        },
+        {
+          "time": 72.22328244274807,
+          "temperature": 41.484922086934546
+        },
+        {
+          "time": 76.23091603053435,
+          "temperature": 40.57141505267805
+        },
+        {
+          "time": 80.09541984732824,
+          "temperature": 39.90599962147496
+        },
+        {
+          "time": 84.24618320610686,
+          "temperature": 38.66175635606585
+        },
+        {
+          "time": 88.11068702290076,
+          "temperature": 37.996340924862764
+        },
+        {
+          "time": 92.40458015267173,
+          "temperature": 37.247807709292786
+        },
+        {
+          "time": 96.26908396946563,
+          "temperature": 36.417103021891364
+        },
+        {
+          "time": 100.13358778625955,
+          "temperature": 35.83433221878744
+        },
+        {
+          "time": 104.28435114503814,
+          "temperature": 35.251245978171724
+        },
+        {
+          "time": 108.29198473282442,
+          "temperature": 34.75096208441107
+        },
+        {
+          "time": 112.15648854961832,
+          "temperature": 34.002902025108824
+        },
+        {
+          "time": 116.16412213740456,
+          "temperature": 33.50261813134817
+        },
+        {
+          "time": 120.17175572519083,
+          "temperature": 33.00233423758753
+        },
+        {
+          "time": 124.32251908396945,
+          "temperature": 32.501892625070965
+        },
+        {
+          "time": 128.18702290076334,
+          "temperature": 32.00176645006623
+        },
+        {
+          "time": 132.19465648854964,
+          "temperature": 31.584127184404764
+        },
+        {
+          "time": 136.20229007633588,
+          "temperature": 31.166487918743286
+        },
+        {
+          "time": 140.20992366412213,
+          "temperature": 30.748848653081822
+        },
+        {
+          "time": 144.21755725190843,
+          "temperature": 30.41385401551952
+        },
+        {
+          "time": 148.22519083969462,
+          "temperature": 29.99621474985804
+        },
+        {
+          "time": 152.23282442748092,
+          "temperature": 29.826509368494087
+        },
+        {
+          "time": 156.24045801526722,
+          "temperature": 29.408870102832623
+        },
+        {
+          "time": 160.2480916030534,
+          "temperature": 28.991230837171145
+        },
+        {
+          "time": 164.25572519083977,
+          "temperature": 28.738880827708016
+        },
+        {
+          "time": 168.263358778626,
+          "temperature": 28.321241562046552
+        },
+        {
+          "time": 172.2709923664122,
+          "temperature": 28.151536180682598
+        },
+        {
+          "time": 176.2786259541985,
+          "temperature": 27.89918617121947
+        },
+        {
+          "time": 180.28625954198475,
+          "temperature": 27.564191533657166
+        },
+        {
+          "time": 184.29389312977094,
+          "temperature": 27.39448615229321
+        },
+        {
+          "time": 188.30152671755724,
+          "temperature": 27.142136142830097
+        },
+        {
+          "time": 192.30916030534348,
+          "temperature": 26.807141505267793
+        },
+        {
+          "time": 196.31679389312973,
+          "temperature": 26.554791495804665
+        },
+        {
+          "time": 200.32442748091603,
+          "temperature": 26.38508611444071
+        },
+        {
+          "time": 204.33206106870233,
+          "temperature": 26.215380733076756
+        },
+        {
+          "time": 208.33969465648863,
+          "temperature": 26.128319979811977
+        },
+        {
+          "time": 212.34732824427488,
+          "temperature": 25.875969970348876
+        },
+        {
+          "time": 216.35496183206112,
+          "temperature": 25.706264588984908
+        },
+        {
+          "time": 220.36259541984737,
+          "temperature": 25.61920383572013
+        }
+      ]
+    },
+    {
+      "dataset_id": "fastr2_coolingwater_oil",
+      "source": "https://github.com/rpruim/fastR2/blob/main/data-raw/CoolingWaterOil.csv",
+      "description": "Cooling water with oil film on surface to minimize evaporation, from Stan Wagon and students",
+      "license": "CC BY (fastR2 package)",
+      "metadata": {
+        "time_unit": "seconds",
+        "temperature_unit": "fahrenheit",
+        "ambient_temperature": null,
+        "container": "mug",
+        "fluid": "water with oil film",
+        "initial_temperature": 188,
+        "collector": "Stan Wagon and students",
+        "institution": "Macalester College",
+        "reference": "R. Israel, P. Saltzman, and S. Wagon. 'Cooling coffee without solving differential equations'. Mathematics Magazine, 86(3):204-210, 2013.",
+        "n_observations": 58,
+        "condition": "oil film on surface"
+      },
+      "data": [
+        {
+          "time": 6.0,
+          "temperature": 188
+        },
+        {
+          "time": 66.0,
+          "temperature": 186.62
+        },
+        {
+          "time": 126.0,
+          "temperature": 185.0
+        },
+        {
+          "time": 186.0,
+          "temperature": 183.02
+        },
+        {
+          "time": 246.0,
+          "temperature": 181.22
+        },
+        {
+          "time": 306.0,
+          "temperature": 179.06
+        },
+        {
+          "time": 366.0,
+          "temperature": 177.08
+        },
+        {
+          "time": 426.0,
+          "temperature": 174.92
+        },
+        {
+          "time": 486.0,
+          "temperature": 172.94
+        },
+        {
+          "time": 546.0,
+          "temperature": 170.96
+        },
+        {
+          "time": 606.0,
+          "temperature": 168.98
+        },
+        {
+          "time": 666.0,
+          "temperature": 167.0
+        },
+        {
+          "time": 726.0,
+          "temperature": 165.2
+        },
+        {
+          "time": 786.0,
+          "temperature": 163.22
+        },
+        {
+          "time": 846.0,
+          "temperature": 161.24
+        },
+        {
+          "time": 906.0,
+          "temperature": 159.44
+        },
+        {
+          "time": 966.0,
+          "temperature": 157.64
+        },
+        {
+          "time": 1026.0,
+          "temperature": 155.84
+        },
+        {
+          "time": 1086.0,
+          "temperature": 154.22
+        },
+        {
+          "time": 1146.0,
+          "temperature": 152.42
+        },
+        {
+          "time": 1206.0,
+          "temperature": 150.8
+        },
+        {
+          "time": 1266.0,
+          "temperature": 149.36
+        },
+        {
+          "time": 1326.0,
+          "temperature": 147.74
+        },
+        {
+          "time": 1386.0,
+          "temperature": 146.3
+        },
+        {
+          "time": 1446.0,
+          "temperature": 144.68
+        },
+        {
+          "time": 1506.0,
+          "temperature": 143.24
+        },
+        {
+          "time": 1566.0,
+          "temperature": 141.8
+        },
+        {
+          "time": 1626.0,
+          "temperature": 140.54
+        },
+        {
+          "time": 1686.0,
+          "temperature": 139.1
+        },
+        {
+          "time": 1746.0,
+          "temperature": 137.84
+        },
+        {
+          "time": 1806.0,
+          "temperature": 136.58
+        },
+        {
+          "time": 1866.0,
+          "temperature": 135.32
+        },
+        {
+          "time": 1926.0,
+          "temperature": 134.06
+        },
+        {
+          "time": 1986.0,
+          "temperature": 132.8
+        },
+        {
+          "time": 2046.0,
+          "temperature": 131.54
+        },
+        {
+          "time": 2106.0,
+          "temperature": 130.46
+        },
+        {
+          "time": 2166.0,
+          "temperature": 129.2
+        },
+        {
+          "time": 2226.0,
+          "temperature": 128.12
+        },
+        {
+          "time": 2286.0,
+          "temperature": 127.22
+        },
+        {
+          "time": 2346.0,
+          "temperature": 126.14
+        },
+        {
+          "time": 2406.0,
+          "temperature": 125.06
+        },
+        {
+          "time": 2466.0,
+          "temperature": 123.98
+        },
+        {
+          "time": 2526.0,
+          "temperature": 123.08
+        },
+        {
+          "time": 2586.0,
+          "temperature": 122.0
+        },
+        {
+          "time": 2646.0,
+          "temperature": 121.1
+        },
+        {
+          "time": 2706.0,
+          "temperature": 120.2
+        },
+        {
+          "time": 2766.0,
+          "temperature": 119.3
+        },
+        {
+          "time": 2826.0,
+          "temperature": 118.4
+        },
+        {
+          "time": 2886.0,
+          "temperature": 117.5
+        },
+        {
+          "time": 2946.0,
+          "temperature": 116.78
+        },
+        {
+          "time": 3006.0,
+          "temperature": 115.88
+        },
+        {
+          "time": 3066.0,
+          "temperature": 114.98
+        },
+        {
+          "time": 3126.0,
+          "temperature": 114.26
+        },
+        {
+          "time": 3186.0,
+          "temperature": 113.54
+        },
+        {
+          "time": 3246.0,
+          "temperature": 112.82
+        },
+        {
+          "time": 3306.0,
+          "temperature": 112.1
+        },
+        {
+          "time": 3366.0,
+          "temperature": 111.38
+        },
+        {
+          "time": 3426.0,
+          "temperature": 110.66
+        },
+        {
+          "time": 3486.0,
+          "temperature": 109.94
+        },
+        {
+          "time": 3546.0,
+          "temperature": 109.22
+        }
+      ]
+    },
+    {
+      "dataset_id": "fastr2_coolingwater_oil2",
+      "source": "https://github.com/rpruim/fastR2/blob/main/data-raw/CoolingWaterOil2.csv",
+      "description": "Cooling water with oil film on surface, finer time resolution",
+      "license": "CC BY (fastR2 package)",
+      "metadata": {
+        "time_unit": "minutes",
+        "temperature_unit": "celsius",
+        "ambient_temperature": null,
+        "container": "mug",
+        "fluid": "water with oil film",
+        "initial_temperature": 91.15,
+        "collector": "Stan Wagon and students",
+        "institution": "Macalester College",
+        "reference": "R. Israel, P. Saltzman, and S. Wagon. 'Cooling coffee without solving differential equations'. Mathematics Magazine, 86(3):204-210, 2013.",
+        "n_observations": 54,
+        "condition": "oil film on surface"
+      },
+      "data": [
+        {
+          "time": 0.0858778625954244,
+          "temperature": 91.15118919941959
+        },
+        {
+          "time": 4.093511450381676,
+          "temperature": 88.9153681155763
+        },
+        {
+          "time": 8.101145038167928,
+          "temperature": 87.17541480032804
+        },
+        {
+          "time": 12.108778625954187,
+          "temperature": 85.7660399974765
+        },
+        {
+          "time": 15.9732824427481,
+          "temperature": 84.35682291338085
+        },
+        {
+          "time": 20.12404580152672,
+          "temperature": 82.94729039177338
+        },
+        {
+          "time": 24.131679389312964,
+          "temperature": 81.620560217021
+        },
+        {
+          "time": 27.996183206106863,
+          "temperature": 80.3766323891237
+        },
+        {
+          "time": 32.00381679389311,
+          "temperature": 79.1325468424705
+        },
+        {
+          "time": 36.01145038167938,
+          "temperature": 77.88846129581728
+        },
+        {
+          "time": 40.162213740458,
+          "temperature": 76.72686265850734
+        },
+        {
+          "time": 44.0267175572519,
+          "temperature": 75.56557945870922
+        },
+        {
+          "time": 48.17748091603053,
+          "temperature": 74.48662544949845
+        },
+        {
+          "time": 52.18511450381679,
+          "temperature": 73.32518453094441
+        },
+        {
+          "time": 56.04961832061069,
+          "temperature": 72.24654595924545
+        },
+        {
+          "time": 60.05725190839692,
+          "temperature": 71.1677496687906
+        },
+        {
+          "time": 64.06488549618318,
+          "temperature": 70.25424263453408
+        },
+        {
+          "time": 68.07251908396947,
+          "temperature": 69.2580909721784
+        },
+        {
+          "time": 72.22328244274807,
+          "temperature": 68.2617815910668
+        },
+        {
+          "time": 76.087786259542,
+          "temperature": 67.3484322755662
+        },
+        {
+          "time": 80.09541984732824,
+          "temperature": 66.43492524130968
+        },
+        {
+          "time": 84.10305343511449,
+          "temperature": 65.52141820705316
+        },
+        {
+          "time": 88.11068702290073,
+          "temperature": 64.60791117279666
+        },
+        {
+          "time": 92.11832061068701,
+          "temperature": 63.77704876663932
+        },
+        {
+          "time": 96.12595419847325,
+          "temperature": 62.946186360481974
+        },
+        {
+          "time": 100.13358778625955,
+          "temperature": 62.03267932622546
+        },
+        {
+          "time": 104.14122137404577,
+          "temperature": 61.28446154816729
+        },
+        {
+          "time": 108.14885496183204,
+          "temperature": 60.536243770109124
+        },
+        {
+          "time": 112.15648854961832,
+          "temperature": 59.78802599205096
+        },
+        {
+          "time": 116.16412213740456,
+          "temperature": 59.12245284209197
+        },
+        {
+          "time": 120.17175572519083,
+          "temperature": 58.3742350640338
+        },
+        {
+          "time": 124.17938931297708,
+          "temperature": 57.626017285975635
+        },
+        {
+          "time": 128.1870229007634,
+          "temperature": 56.96044413601664
+        },
+        {
+          "time": 132.19465648854958,
+          "temperature": 56.29487098605766
+        },
+        {
+          "time": 136.20229007633583,
+          "temperature": 55.54665320799948
+        },
+        {
+          "time": 140.2099236641222,
+          "temperature": 54.96372468613966
+        },
+        {
+          "time": 144.21755725190837,
+          "temperature": 54.380796164279836
+        },
+        {
+          "time": 148.22519083969468,
+          "temperature": 53.71522301432085
+        },
+        {
+          "time": 152.23282442748092,
+          "temperature": 53.13229449246103
+        },
+        {
+          "time": 156.24045801526722,
+          "temperature": 52.54936597060121
+        },
+        {
+          "time": 160.24809160305352,
+          "temperature": 51.96643744874138
+        },
+        {
+          "time": 164.2557251908397,
+          "temperature": 51.46615355498074
+        },
+        {
+          "time": 168.26335877862596,
+          "temperature": 50.88322503312092
+        },
+        {
+          "time": 172.27099236641226,
+          "temperature": 50.38294113936028
+        },
+        {
+          "time": 176.2786259541985,
+          "temperature": 49.88265724559963
+        },
+        {
+          "time": 180.28625954198475,
+          "temperature": 49.38237335183898
+        },
+        {
+          "time": 184.293893129771,
+          "temperature": 48.88208945807834
+        },
+        {
+          "time": 188.3015267175573,
+          "temperature": 48.381805564317695
+        },
+        {
+          "time": 192.30916030534348,
+          "temperature": 47.96416629865622
+        },
+        {
+          "time": 196.31679389312973,
+          "temperature": 47.46388240489558
+        },
+        {
+          "time": 200.32442748091603,
+          "temperature": 47.046243139234114
+        },
+        {
+          "time": 204.33206106870227,
+          "temperature": 46.62860387357263
+        },
+        {
+          "time": 208.33969465648852,
+          "temperature": 46.21096460791116
+        },
+        {
+          "time": 212.34732824427482,
+          "temperature": 45.79332534224969
+        },
+        {
+          "time": 216.35496183206106,
+          "temperature": 45.37568607658821
+        },
+        {
+          "time": 220.3625954198473,
+          "temperature": 44.958046810926746
+        }
+      ]
+    },
+    {
+      "dataset_id": "geocities_newton_cooling",
+      "source": "https://www.geocities.ws/junebug_sophia/dataSet2.pdf",
+      "description": "Newton's law of cooling data set from educational resource, time in minutes, temperature in Celsius",
+      "license": "Educational (geocities.ws)",
+      "metadata": {
+        "time_unit": "minutes",
+        "temperature_unit": "celsius",
+        "ambient_temperature": null,
+        "container": "unknown",
+        "fluid": "unknown liquid",
+        "initial_temperature": 115.0,
+        "n_observations": 16,
+        "note": "Data from 'Newton's Law of Cooling - Graphs Generated by Excel' educational resource"
+      },
+      "data": [
+        {
+          "time": 0.0,
+          "temperature": 115.0
+        },
+        {
+          "time": 1.0,
+          "temperature": 112.0
+        },
+        {
+          "time": 2.0,
+          "temperature": 108.0
+        },
+        {
+          "time": 3.0,
+          "temperature": 105.0
+        },
+        {
+          "time": 4.0,
+          "temperature": 101.0
+        },
+        {
+          "time": 5.0,
+          "temperature": 98.0
+        },
+        {
+          "time": 6.0,
+          "temperature": 95.0
+        },
+        {
+          "time": 7.0,
+          "temperature": 92.0
+        },
+        {
+          "time": 8.0,
+          "temperature": 89.0
+        },
+        {
+          "time": 9.0,
+          "temperature": 86.0
+        },
+        {
+          "time": 10.0,
+          "temperature": 83.0
+        },
+        {
+          "time": 11.0,
+          "temperature": 81.0
+        },
+        {
+          "time": 12.0,
+          "temperature": 78.0
+        },
+        {
+          "time": 13.0,
+          "temperature": 75.0
+        },
+        {
+          "time": 14.0,
+          "temperature": 73.0
+        },
+        {
+          "time": 15.0,
+          "temperature": 71.0
+        }
+      ]
+    }
+  ]
+}

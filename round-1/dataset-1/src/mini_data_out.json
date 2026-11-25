@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "description": "Cooling curve benchmark dataset for comparing Newton's law of cooling against the SCFC model. 5 synthetic curves from first-principles physics (Incropera & DeWitt) covering ceramic mug, glass beaker, steel cup, wide bowl with water and coffee at varying humidity.",
+    "n_datasets": 5,
+    "total_examples": 845,
+    "generation_method": "Synthetic: first-principles physics (Incropera & DeWitt) with Churchill-Chu convection, Stefan-Boltzmann radiation, and ASHRAE evaporation. Gaussian measurement noise (sigma=0.1-0.2\u00b0C)."
+  },
+  "datasets": [
+    {
+      "dataset": "ceramic_mug_hot_water_room",
+      "examples": [
+        {
+          "input": "{\"time_s\": 0.0, \"T_initial_C\": 92.0, \"T_amb_C\": 22.0, \"RH_percent\": 45.0, \"A_surf_m2\": 0.012, \"V_m3\": 0.00025, \"container_type\": \"ceramic\", \"fluid_type\": \"water\"}",
+          "output": "91.98",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time_s",
+            "T_initial_C",
+            "T_amb_C",
+            "RH_percent",
+            "A_surf_m2",
+            "V_m3",
+            "container_type",
+            "fluid_type"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 0,
+          "metadata_dataset_id": "ceramic_mug_hot_water_room",
+          "metadata_scfc_predicted_C": "92.0",
+          "metadata_newton_predicted_C": "92.0",
+          "metadata_fitted_k": "0.000242",
+          "metadata_container_description": "Standard ceramic mug, 250 mL volume"
+        },
+        {
+          "input": "{\"time_s\": 10.0, \"T_initial_C\": 92.0, \"T_amb_C\": 22.0, \"RH_percent\": 45.0, \"A_surf_m2\": 0.012, \"V_m3\": 0.00025, \"container_type\": \"ceramic\", \"fluid_type\": \"water\"}",
+          "output": "91.8",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time_s",
+            "T_initial_C",
+            "T_amb_C",
+            "RH_percent",
+            "A_surf_m2",
+            "V_m3",
+            "container_type",
+            "fluid_type"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 1,
+          "metadata_dataset_id": "ceramic_mug_hot_water_room",
+          "metadata_scfc_predicted_C": "91.83",
+          "metadata_newton_predicted_C": "91.83",
+          "metadata_fitted_k": "0.000242",
+          "metadata_container_description": "Standard ceramic mug, 250 mL volume"
+        },
+        {
+          "input": "{\"time_s\": 20.0, \"T_initial_C\": 92.0, \"T_amb_C\": 22.0, \"RH_percent\": 45.0, \"A_surf_m2\": 0.012, \"V_m3\": 0.00025, \"container_type\": \"ceramic\", \"fluid_type\": \"water\"}",
+          "output": "91.64",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time_s",
+            "T_initial_C",
+            "T_amb_C",
+            "RH_percent",
+            "A_surf_m2",
+            "V_m3",
+            "container_type",
+            "fluid_type"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 2,
+          "metadata_dataset_id": "ceramic_mug_hot_water_room",
+          "metadata_scfc_predicted_C": "91.66",
+          "metadata_newton_predicted_C": "91.66",
+          "metadata_fitted_k": "0.000242",
+          "metadata_container_description": "Standard ceramic mug, 250 mL volume"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "metadata": {
+    "description": "Benchmark dataset of published temperature-time cooling curves for open-surface liquids, selected from educational resources and physics experiments. For comparing Newton's law of cooling against the proposed SCFC model. Contains 5 curves with varying conditions: control, oil film (evaporation minimized), different containers, and time resolutions.",
+    "license": "Mixed: CC BY, educational use, open access",
+    "version": "1.0",
+    "created": "2026-11-25",
+    "total_curves": 5,
+    "total_examples": 455,
+    "selection_criteria": "Max data points, clear provenance, condition variety (oil film, container types), Celsius units, real experimental data"
+  },
+  "datasets": [
+    {
+      "dataset": "mosaicdata_coolingwater",
+      "examples": [
+        {
+          "input": "{\"time\": 0, \"time_unit\": \"minutes\", \"ambient_temperature\": null, \"container\": \"mug\", \"fluid\": \"water\", \"initial_temperature\": 98.2}",
+          "output": "98.2",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time",
+            "time_unit",
+            "ambient_temperature",
+            "container",
+            "fluid",
+            "initial_temperature"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 0,
+          "metadata_dataset_id": "mosaicdata_coolingwater",
+          "metadata_source": "https://vincentarelbundock.github.io/Rdatasets/doc/mosaicData/CoolingWater.html",
+          "metadata_temperature_unit": "celsius"
+        },
+        {
+          "input": "{\"time\": 1, \"time_unit\": \"minutes\", \"ambient_temperature\": null, \"container\": \"mug\", \"fluid\": \"water\", \"initial_temperature\": 98.2}",
+          "output": "94.4",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time",
+            "time_unit",
+            "ambient_temperature",
+            "container",
+            "fluid",
+            "initial_temperature"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 1,
+          "metadata_dataset_id": "mosaicdata_coolingwater",
+          "metadata_source": "https://vincentarelbundock.github.io/Rdatasets/doc/mosaicData/CoolingWater.html",
+          "metadata_temperature_unit": "celsius"
+        },
+        {
+          "input": "{\"time\": 2, \"time_unit\": \"minutes\", \"ambient_temperature\": null, \"container\": \"mug\", \"fluid\": \"water\", \"initial_temperature\": 98.2}",
+          "output": "91.4",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time",
+            "time_unit",
+            "ambient_temperature",
+            "container",
+            "fluid",
+            "initial_temperature"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 2,
+          "metadata_dataset_id": "mosaicdata_coolingwater",
+          "metadata_source": "https://vincentarelbundock.github.io/Rdatasets/doc/mosaicData/CoolingWater.html",
+          "metadata_temperature_unit": "celsius"
+        }
+      ]
+    },
+    {
+      "dataset": "eeps_zoo_cooling",
+      "examples": [
+        {
+          "input": "{\"time\": 0, \"time_unit\": \"minutes\", \"ambient_temperature\": null, \"container\": \"beaker\", \"fluid\": \"water\", \"initial_temperature\": 49.0742}",
+          "output": "49.0742",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time",
+            "time_unit",
+            "ambient_temperature",
+            "container",
+            "fluid",
+            "initial_temperature"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 0,
+          "metadata_dataset_id": "eeps_zoo_cooling",
+          "metadata_source": "https://eeps.com/zoo/cages/Cooling.html",
+          "metadata_temperature_unit": "celsius"
+        },
+        {
+          "input": "{\"time\": 1, \"time_unit\": \"minutes\", \"ambient_temperature\": null, \"container\": \"beaker\", \"fluid\": \"water\", \"initial_temperature\": 49.0742}",
+          "output": "48.6132",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time",
+            "time_unit",
+            "ambient_temperature",
+            "container",
+            "fluid",
+            "initial_temperature"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 1,
+          "metadata_dataset_id": "eeps_zoo_cooling",
+          "metadata_source": "https://eeps.com/zoo/cages/Cooling.html",
+          "metadata_temperature_unit": "celsius"
+        },
+        {
+          "input": "{\"time\": 2, \"time_unit\": \"minutes\", \"ambient_temperature\": null, \"container\": \"beaker\", \"fluid\": \"water\", \"initial_temperature\": 49.0742}",
+          "output": "48.1843",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time",
+            "time_unit",
+            "ambient_temperature",
+            "container",
+            "fluid",
+            "initial_temperature"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 2,
+          "metadata_dataset_id": "eeps_zoo_cooling",
+          "metadata_source": "https://eeps.com/zoo/cages/Cooling.html",
+          "metadata_temperature_unit": "celsius"
+        }
+      ]
+    },
+    {
+      "dataset": "fastr2_coolingwater2",
+      "examples": [
+        {
+          "input": "{\"time\": 0.0858778625954244, \"time_unit\": \"minutes\", \"ambient_temperature\": null, \"container\": \"mug\", \"fluid\": \"water\", \"initial_temperature\": 98.26}",
+          "output": "98.25862721594851",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time",
+            "time_unit",
+            "ambient_temperature",
+            "container",
+            "fluid",
+            "initial_temperature"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 0,
+          "metadata_dataset_id": "fastr2_coolingwater2",
+          "metadata_source": "https://github.com/rpruim/fastR2/blob/main/data-raw/CoolingWater2.csv",
+          "metadata_temperature_unit": "celsius"
+        },
+        {
+          "input": "{\"time\": 3.9503816793893023, \"time_unit\": \"minutes\", \"ambient_temperature\": null, \"container\": \"mug\", \"fluid\": \"water\", \"initial_temperature\": 98.26}",
+          "output": "87.01469938805123",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time",
+            "time_unit",
+            "ambient_temperature",
+            "container",
+            "fluid",
+            "initial_temperature"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 1,
+          "metadata_dataset_id": "fastr2_coolingwater2",
+          "metadata_source": "https://github.com/rpruim/fastR2/blob/main/data-raw/CoolingWater2.csv",
+          "metadata_temperature_unit": "celsius"
+        },
+        {
+          "input": "{\"time\": 8.101145038167935, \"time_unit\": \"minutes\", \"ambient_temperature\": null, \"container\": \"mug\", \"fluid\": \"water\", \"initial_temperature\": 98.26}",
+          "output": "79.57210901520408",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time",
+            "time_unit",
+            "ambient_temperature",
+            "container",
+            "fluid",
+            "initial_temperature"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 2,
+          "metadata_dataset_id": "fastr2_coolingwater2",
+          "metadata_source": "https://github.com/rpruim/fastR2/blob/main/data-raw/CoolingWater2.csv",
+          "metadata_temperature_unit": "celsius"
+        }
+      ]
+    },
+    {
+      "dataset": "fastr2_coolingwater_oil",
+      "examples": [
+        {
+          "input": "{\"time\": 6.0, \"time_unit\": \"seconds\", \"ambient_temperature\": null, \"container\": \"mug\", \"fluid\": \"water with oil film\", \"initial_temperature\": 188}",
+          "output": "188",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time",
+            "time_unit",
+            "ambient_temperature",
+            "container",
+            "fluid",
+            "initial_temperature"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 0,
+          "metadata_dataset_id": "fastr2_coolingwater_oil",
+          "metadata_source": "https://github.com/rpruim/fastR2/blob/main/data-raw/CoolingWaterOil.csv",
+          "metadata_temperature_unit": "fahrenheit"
+        },
+        {
+          "input": "{\"time\": 66.0, \"time_unit\": \"seconds\", \"ambient_temperature\": null, \"container\": \"mug\", \"fluid\": \"water with oil film\", \"initial_temperature\": 188}",
+          "output": "186.62",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time",
+            "time_unit",
+            "ambient_temperature",
+            "container",
+            "fluid",
+            "initial_temperature"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 1,
+          "metadata_dataset_id": "fastr2_coolingwater_oil",
+          "metadata_source": "https://github.com/rpruim/fastR2/blob/main/data-raw/CoolingWaterOil.csv",
+          "metadata_temperature_unit": "fahrenheit"
+        },
+        {
+          "input": "{\"time\": 126.0, \"time_unit\": \"seconds\", \"ambient_temperature\": null, \"container\": \"mug\", \"fluid\": \"water with oil film\", \"initial_temperature\": 188}",
+          "output": "185.0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time",
+            "time_unit",
+            "ambient_temperature",
+            "container",
+            "fluid",
+            "initial_temperature"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 2,
+          "metadata_dataset_id": "fastr2_coolingwater_oil",
+          "metadata_source": "https://github.com/rpruim/fastR2/blob/main/data-raw/CoolingWaterOil.csv",
+          "metadata_temperature_unit": "fahrenheit"
+        }
+      ]
+    },
+    {
+      "dataset": "fastr2_coolingwater_oil2",
+      "examples": [
+        {
+          "input": "{\"time\": 0.0858778625954244, \"time_unit\": \"minutes\", \"ambient_temperature\": null, \"container\": \"mug\", \"fluid\": \"water with oil film\", \"initial_temperature\": 91.15}",
+          "output": "91.15118919941959",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time",
+            "time_unit",
+            "ambient_temperature",
+            "container",
+            "fluid",
+            "initial_temperature"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 0,
+          "metadata_dataset_id": "fastr2_coolingwater_oil2",
+          "metadata_source": "https://github.com/rpruim/fastR2/blob/main/data-raw/CoolingWaterOil2.csv",
+          "metadata_temperature_unit": "celsius"
+        },
+        {
+          "input": "{\"time\": 4.093511450381676, \"time_unit\": \"minutes\", \"ambient_temperature\": null, \"container\": \"mug\", \"fluid\": \"water with oil film\", \"initial_temperature\": 91.15}",
+          "output": "88.9153681155763",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time",
+            "time_unit",
+            "ambient_temperature",
+            "container",
+            "fluid",
+            "initial_temperature"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 1,
+          "metadata_dataset_id": "fastr2_coolingwater_oil2",
+          "metadata_source": "https://github.com/rpruim/fastR2/blob/main/data-raw/CoolingWaterOil2.csv",
+          "metadata_temperature_unit": "celsius"
+        },
+        {
+          "input": "{\"time\": 8.101145038167928, \"time_unit\": \"minutes\", \"ambient_temperature\": null, \"container\": \"mug\", \"fluid\": \"water with oil film\", \"initial_temperature\": 91.15}",
+          "output": "87.17541480032804",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time",
+            "time_unit",
+            "ambient_temperature",
+            "container",
+            "fluid",
+            "initial_temperature"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 2,
+          "metadata_dataset_id": "fastr2_coolingwater_oil2",
+          "metadata_source": "https://github.com/rpruim/fastR2/blob/main/data-raw/CoolingWaterOil2.csv",
+          "metadata_temperature_unit": "celsius"
+        }
+      ]
+    }
+  ]
+}

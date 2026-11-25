@@ -1,0 +1,380 @@
+{
+  "metadata": {
+    "description": "Cooling curve benchmark dataset for comparing Newton's law of cooling against the SCFC model. 5 synthetic curves from first-principles physics (Incropera & DeWitt) covering ceramic mug, glass beaker, ...",
+    "n_datasets": 5,
+    "total_examples": 845,
+    "generation_method": "Synthetic: first-principles physics (Incropera & DeWitt) with Churchill-Chu convection, Stefan-Boltzmann radiation, and ASHRAE evaporation. Gaussian measurement noise (sigma=0.1-0.2\u00b0C)."
+  },
+  "datasets": [
+    {
+      "dataset": "ceramic_mug_hot_water_room",
+      "examples": [
+        {
+          "input": "{\"time_s\": 0.0, \"T_initial_C\": 92.0, \"T_amb_C\": 22.0, \"RH_percent\": 45.0, \"A_surf_m2\": 0.012, \"V_m3\": 0.00025, \"container_type\": \"ceramic\", \"fluid_type\": \"water\"}",
+          "output": "91.98",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time_s",
+            "T_initial_C",
+            "T_amb_C",
+            "RH_percent",
+            "A_surf_m2",
+            "V_m3",
+            "container_type",
+            "fluid_type"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 0,
+          "metadata_dataset_id": "ceramic_mug_hot_water_room",
+          "metadata_scfc_predicted_C": "92.0",
+          "metadata_newton_predicted_C": "92.0",
+          "metadata_fitted_k": "0.000242",
+          "metadata_container_description": "Standard ceramic mug, 250 mL volume"
+        },
+        {
+          "input": "{\"time_s\": 10.0, \"T_initial_C\": 92.0, \"T_amb_C\": 22.0, \"RH_percent\": 45.0, \"A_surf_m2\": 0.012, \"V_m3\": 0.00025, \"container_type\": \"ceramic\", \"fluid_type\": \"water\"}",
+          "output": "91.8",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time_s",
+            "T_initial_C",
+            "T_amb_C",
+            "RH_percent",
+            "A_surf_m2",
+            "V_m3",
+            "container_type",
+            "fluid_type"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 1,
+          "metadata_dataset_id": "ceramic_mug_hot_water_room",
+          "metadata_scfc_predicted_C": "91.83",
+          "metadata_newton_predicted_C": "91.83",
+          "metadata_fitted_k": "0.000242",
+          "metadata_container_description": "Standard ceramic mug, 250 mL volume"
+        },
+        {
+          "input": "{\"time_s\": 20.0, \"T_initial_C\": 92.0, \"T_amb_C\": 22.0, \"RH_percent\": 45.0, \"A_surf_m2\": 0.012, \"V_m3\": 0.00025, \"container_type\": \"ceramic\", \"fluid_type\": \"water\"}",
+          "output": "91.64",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "time_s",
+            "T_initial_C",
+            "T_amb_C",
+            "RH_percent",
+            "A_surf_m2",
+            "V_m3",
+            "container_type",
+            "fluid_type"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 2,
+          "metadata_dataset_id": "ceramic_mug_hot_water_room",
+          "metadata_scfc_predicted_C": "91.66",
+          "metadata_newton_predicted_C": "91.66",
+          "metadata_fitted_k": "0.000242",
+          "metadata_container_description": "Standard ceramic mug, 250 mL volume"
+        }
+      ]
+    },
+    {
+      "dataset": "glass_beaker_hot_water_room",
+      "examples": [
+        {
+          "input": "{\"time_s\": 0.0, \"T_initial_C\": 95.0, \"T_amb_C\": 23.0, \"RH_percent\": 50.0, \"A_surf_m2\": 0.015, \"V_m3\": 0.0003, \"container_type\": \"glass\", \"fluid_type\": \"water\"}",
+          "output": "94.82",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "time_s",
+            "T_initial_C",
+            "T_amb_C",
+            "RH_percent",
+            "A_surf_m2",
+            "V_m3",
+            "container_type",
+            "fluid_type"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 0,
+          "metadata_dataset_id": "glass_beaker_hot_water_room",
+          "metadata_scfc_predicted_C": "95.0",
+          "metadata_newton_predicted_C": "95.0",
+          "metadata_fitted_k": "0.00026",
+          "metadata_container_description": "Glass beaker, 300 mL volume"
+        },
+        {
+          "input": "{\"time_s\": 10.0, \"T_initial_C\": 95.0, \"T_amb_C\": 23.0, \"RH_percent\": 50.0, \"A_surf_m2\": 0.015, \"V_m3\": 0.0003, \"container_type\": \"glass\", \"fluid_type\": \"water\"}",
+          "output": "94.86",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "time_s",
+            "T_initial_C",
+            "T_amb_C",
+            "RH_percent",
+            "A_surf_m2",
+            "V_m3",
+            "container_type",
+            "fluid_type"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 1,
+          "metadata_dataset_id": "glass_beaker_hot_water_room",
+          "metadata_scfc_predicted_C": "94.81",
+          "metadata_newton_predicted_C": "94.81",
+          "metadata_fitted_k": "0.00026",
+          "metadata_container_description": "Glass beaker, 300 mL volume"
+        },
+        {
+          "input": "{\"time_s\": 20.0, \"T_initial_C\": 95.0, \"T_amb_C\": 23.0, \"RH_percent\": 50.0, \"A_surf_m2\": 0.015, \"V_m3\": 0.0003, \"container_type\": \"glass\", \"fluid_type\": \"water\"}",
+          "output": "94.61",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "time_s",
+            "T_initial_C",
+            "T_amb_C",
+            "RH_percent",
+            "A_surf_m2",
+            "V_m3",
+            "container_type",
+            "fluid_type"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 2,
+          "metadata_dataset_id": "glass_beaker_hot_water_room",
+          "metadata_scfc_predicted_C": "94.62",
+          "metadata_newton_predicted_C": "94.63",
+          "metadata_fitted_k": "0.00026",
+          "metadata_container_description": "Glass beaker, 300 mL volume"
+        }
+      ]
+    },
+    {
+      "dataset": "ceramic_mug_coffee_room",
+      "examples": [
+        {
+          "input": "{\"time_s\": 0.0, \"T_initial_C\": 88.0, \"T_amb_C\": 21.0, \"RH_percent\": 40.0, \"A_surf_m2\": 0.011, \"V_m3\": 0.0002, \"container_type\": \"ceramic\", \"fluid_type\": \"coffee\"}",
+          "output": "87.81",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "time_s",
+            "T_initial_C",
+            "T_amb_C",
+            "RH_percent",
+            "A_surf_m2",
+            "V_m3",
+            "container_type",
+            "fluid_type"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 0,
+          "metadata_dataset_id": "ceramic_mug_coffee_room",
+          "metadata_scfc_predicted_C": "88.0",
+          "metadata_newton_predicted_C": "88.0",
+          "metadata_fitted_k": "0.000272",
+          "metadata_container_description": "Standard ceramic mug, 200 mL coffee"
+        },
+        {
+          "input": "{\"time_s\": 15.0, \"T_initial_C\": 88.0, \"T_amb_C\": 21.0, \"RH_percent\": 40.0, \"A_surf_m2\": 0.011, \"V_m3\": 0.0002, \"container_type\": \"ceramic\", \"fluid_type\": \"coffee\"}",
+          "output": "87.57",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "time_s",
+            "T_initial_C",
+            "T_amb_C",
+            "RH_percent",
+            "A_surf_m2",
+            "V_m3",
+            "container_type",
+            "fluid_type"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 1,
+          "metadata_dataset_id": "ceramic_mug_coffee_room",
+          "metadata_scfc_predicted_C": "87.72",
+          "metadata_newton_predicted_C": "87.73",
+          "metadata_fitted_k": "0.000272",
+          "metadata_container_description": "Standard ceramic mug, 200 mL coffee"
+        },
+        {
+          "input": "{\"time_s\": 30.0, \"T_initial_C\": 88.0, \"T_amb_C\": 21.0, \"RH_percent\": 40.0, \"A_surf_m2\": 0.011, \"V_m3\": 0.0002, \"container_type\": \"ceramic\", \"fluid_type\": \"coffee\"}",
+          "output": "87.25",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "time_s",
+            "T_initial_C",
+            "T_amb_C",
+            "RH_percent",
+            "A_surf_m2",
+            "V_m3",
+            "container_type",
+            "fluid_type"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 2,
+          "metadata_dataset_id": "ceramic_mug_coffee_room",
+          "metadata_scfc_predicted_C": "87.44",
+          "metadata_newton_predicted_C": "87.45",
+          "metadata_fitted_k": "0.000272",
+          "metadata_container_description": "Standard ceramic mug, 200 mL coffee"
+        }
+      ]
+    },
+    {
+      "dataset": "steel_cup_hot_water_humid",
+      "examples": [
+        {
+          "input": "{\"time_s\": 0.0, \"T_initial_C\": 90.0, \"T_amb_C\": 24.0, \"RH_percent\": 70.0, \"A_surf_m2\": 0.01, \"V_m3\": 0.00025, \"container_type\": \"stainless_steel\", \"fluid_type\": \"water\"}",
+          "output": "90.13",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "time_s",
+            "T_initial_C",
+            "T_amb_C",
+            "RH_percent",
+            "A_surf_m2",
+            "V_m3",
+            "container_type",
+            "fluid_type"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 0,
+          "metadata_dataset_id": "steel_cup_hot_water_humid",
+          "metadata_scfc_predicted_C": "90.0",
+          "metadata_newton_predicted_C": "90.0",
+          "metadata_fitted_k": "0.000197",
+          "metadata_container_description": "Stainless steel travel mug, 250 mL"
+        },
+        {
+          "input": "{\"time_s\": 10.0, \"T_initial_C\": 90.0, \"T_amb_C\": 24.0, \"RH_percent\": 70.0, \"A_surf_m2\": 0.01, \"V_m3\": 0.00025, \"container_type\": \"stainless_steel\", \"fluid_type\": \"water\"}",
+          "output": "90.02",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "time_s",
+            "T_initial_C",
+            "T_amb_C",
+            "RH_percent",
+            "A_surf_m2",
+            "V_m3",
+            "container_type",
+            "fluid_type"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 1,
+          "metadata_dataset_id": "steel_cup_hot_water_humid",
+          "metadata_scfc_predicted_C": "89.87",
+          "metadata_newton_predicted_C": "89.87",
+          "metadata_fitted_k": "0.000197",
+          "metadata_container_description": "Stainless steel travel mug, 250 mL"
+        },
+        {
+          "input": "{\"time_s\": 20.0, \"T_initial_C\": 90.0, \"T_amb_C\": 24.0, \"RH_percent\": 70.0, \"A_surf_m2\": 0.01, \"V_m3\": 0.00025, \"container_type\": \"stainless_steel\", \"fluid_type\": \"water\"}",
+          "output": "89.54",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "time_s",
+            "T_initial_C",
+            "T_amb_C",
+            "RH_percent",
+            "A_surf_m2",
+            "V_m3",
+            "container_type",
+            "fluid_type"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 2,
+          "metadata_dataset_id": "steel_cup_hot_water_humid",
+          "metadata_scfc_predicted_C": "89.74",
+          "metadata_newton_predicted_C": "89.74",
+          "metadata_fitted_k": "0.000197",
+          "metadata_container_description": "Stainless steel travel mug, 250 mL"
+        }
+      ]
+    },
+    {
+      "dataset": "wide_bowl_hot_water_room",
+      "examples": [
+        {
+          "input": "{\"time_s\": 0.0, \"T_initial_C\": 93.0, \"T_amb_C\": 22.0, \"RH_percent\": 48.0, \"A_surf_m2\": 0.025, \"V_m3\": 0.0004, \"container_type\": \"ceramic_bowl\", \"fluid_type\": \"water\"}",
+          "output": "93.02",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "time_s",
+            "T_initial_C",
+            "T_amb_C",
+            "RH_percent",
+            "A_surf_m2",
+            "V_m3",
+            "container_type",
+            "fluid_type"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 0,
+          "metadata_dataset_id": "wide_bowl_hot_water_room",
+          "metadata_scfc_predicted_C": "93.0",
+          "metadata_newton_predicted_C": "93.0",
+          "metadata_fitted_k": "0.000325",
+          "metadata_container_description": "Wide ceramic bowl, 400 mL volume"
+        },
+        {
+          "input": "{\"time_s\": 10.0, \"T_initial_C\": 93.0, \"T_amb_C\": 22.0, \"RH_percent\": 48.0, \"A_surf_m2\": 0.025, \"V_m3\": 0.0004, \"container_type\": \"ceramic_bowl\", \"fluid_type\": \"water\"}",
+          "output": "92.52",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "time_s",
+            "T_initial_C",
+            "T_amb_C",
+            "RH_percent",
+            "A_surf_m2",
+            "V_m3",
+            "container_type",
+            "fluid_type"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 1,
+          "metadata_dataset_id": "wide_bowl_hot_water_room",
+          "metadata_scfc_predicted_C": "92.76",
+          "metadata_newton_predicted_C": "92.77",
+          "metadata_fitted_k": "0.000325",
+          "metadata_container_description": "Wide ceramic bowl, 400 mL volume"
+        },
+        {
+          "input": "{\"time_s\": 20.0, \"T_initial_C\": 93.0, \"T_amb_C\": 22.0, \"RH_percent\": 48.0, \"A_surf_m2\": 0.025, \"V_m3\": 0.0004, \"container_type\": \"ceramic_bowl\", \"fluid_type\": \"water\"}",
+          "output": "92.56",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "time_s",
+            "T_initial_C",
+            "T_amb_C",
+            "RH_percent",
+            "A_surf_m2",
+            "V_m3",
+            "container_type",
+            "fluid_type"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_n_classes": 1,
+          "metadata_row_index": 2,
+          "metadata_dataset_id": "wide_bowl_hot_water_room",
+          "metadata_scfc_predicted_C": "92.53",
+          "metadata_newton_predicted_C": "92.54",
+          "metadata_fitted_k": "0.000325",
+          "metadata_container_description": "Wide ceramic bowl, 400 mL volume"
+        }
+      ]
+    }
+  ]
+}
